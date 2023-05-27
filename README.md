@@ -1,4 +1,3 @@
-# hsworkbookcivics
 # 雨坂先生の高校公民　準拠問題集  
   
 当サイトでは、文系教員VTuber[雨坂先生](https://twitter.com/teacheramesaka)の、授業の復習用資料を掲載しています。  

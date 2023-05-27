@@ -1,0 +1,10 @@
+{
+    "plugins": ["gitbook-plugin-page-treeview", "gitbook-plugin-collapsible-chapters", "gitbook-plugin-tags", "gitbook-plugin-youtube"],
+    "pluginsConfig": {
+        "page-treeview": {
+            "copyright": "",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        }
+    }
+}
