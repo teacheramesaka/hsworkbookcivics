@@ -1,12 +1,10 @@
 module Jekyll
-  class TagPageGenerator < Generator
+  class TagGenerator < Generator
     safe true
 
     def generate(site)
-      if site.layouts.key? 'tag'
-        site.tags.keys.each do |tag|
-          site.pages << TagPage.new(site, site.source, File.join('tag', tag), tag)
-        end
+      site.tags.each do |tag, posts|
+        site.pages << TagPage.new(site, site.source, File.join('tags', tag), tag)
       end
     end
   end
@@ -21,7 +19,7 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'tag.html')
       self.data['tag'] = tag
-      self.data['title'] = "#{tag} のタグ"
+      self.data['title'] = "タグ: #{tag}"
     end
   end
 end
