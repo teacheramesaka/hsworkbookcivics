@@ -1,16 +1,20 @@
 <div class="book-summary">
     <script type="text/javascript">
-        // Fixes the page links scroll problem on both desktop and mobile browsers
+        // デスクトップとモバイルブラウザの両方でページリンクのスクロール問題を修正する
         function pageScrollToTop(element) {
-            // both mobile and non-mobile
+            // ページのトップにスムーズにスクロールする
             $('div.body-inner').animate({scrollTop: 0});
+            // すべての兄弟要素から 'active' クラスを削除する
             $(element).parent().find('li>ul>li').removeClass('active');
-            return true;  // propagate
+            return true;  // 伝播する
         }
-        // Fixes the anchor links scroll problem on mobile browsers
+        // モバイルブラウザでアンカーリンクのスクロール問題を修正する
         function mobilePageScrollToAnchor(element) {
+            // 最も近い 'chapter' のすべての兄弟要素から 'active' クラスを削除する
             $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            // 親要素に 'active' クラスを追加する
             $(element).parent().addClass('active');
+            // ドキュメントの幅が1240px以下の場合、アンカーにスクロールする
             if ($(document).width() <= 1240) {
                 $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
             }
@@ -20,55 +24,47 @@
 
     <nav role="navigation">
         <div id="book-search-input" role="search">
+            <!-- 検索機能の入力フィールド -->
             <input type="text" placeholder="Type to search" />
         </div>
         <div id="book-search-input-link" role="search">
+            <!-- 検索ページへのリンク -->
             <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">
             {% if page.url == "/index.html" or page.url == "/" %}
+            <!-- インデックスページをアクティブとしてマークする -->
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
             {% else %}
+            <!-- 非インデックスページ用の通常のリストアイテム -->
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
+                <!-- サイトのホームページへのリンク -->
                 <a href="{{site.baseurl}}/" onclick="pageScrollToTop(this)">
                     {{ site.title | escape }}
                 </a>
             </li>
 
-            <li class="divider"></li>
+            <li class="divider"></li> <!-- 区切り線 -->
 
             {% for collection in site.collections %}
-                <!-- <p>{{ collection.label }}</p> -->
-                {% if collection.output %}
-                    {% if collection.label == "posts" %}
-                        {% assign reversed_posts = site[collection.label] | reverse %}
+            {% if collection.label == "pages" %}
+                <!-- 'pages'コレクションをそのまま代入する -->
+                {% assign pages_list = site[collection.label] %}
+
+                {% for page in pages_list %}
+                    {% if page.url == page.url %}
+                    <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{page.url}}">
                     {% else %}
-                        {% assign reversed_posts = site[collection.label] %}
+                    <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{page.url}}">
                     {% endif %}
-
-                    {% for post in reversed_posts %}
-                        {% if page.url == post.url %}
-                        <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
-                        {% else %}
-                        <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
-                        {% endif %}
-                            <a href="{{site.baseurl}}{{post.url}}" onclick="pageScrollToTop(this)">
-                                {{ post.title | escape }}
-                            </a>
-                            {% if site.toc.enabled %}
-                                {% if page.url == post.url %}
-                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
-                                {% endif %}
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-
-                    {% if reversed_posts.size > 0 %}
-                        <li class="divider"></li>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
+                        <a href="{{site.baseurl}}{{page.url}}" onclick="pageScrollToTop(this)">
+                            {{ page.title | escape }}
+                        </a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
         </ul>
     </nav>
 </div>

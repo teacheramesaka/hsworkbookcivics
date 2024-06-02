@@ -1,12 +1,12 @@
-{"/hsworkbookcivics/pages/about/": {
-    "title": "About",
+{"/hsworkbookcivics/pages/R06kyote-seikei-honshi/": {
+    "title": "令和六年度　大学入学共通テスト本試験　政治・経済",
     "keywords": "Jekyll",
-    "url": "/hsworkbookcivics/pages/about/",
+    "url": "/hsworkbookcivics/pages/R06kyote-seikei-honshi/",
     "body": "This is an about page."
-  },"/hsworkbookcivics/pages/contact/": {
-    "title": "Contact",
+  },"/hsworkbookcivics/pages/R07kyoteshisaku-kokyoseikei/": {
+    "title": "令和七年度　大学入学共通テスト試作問題　公共、政治・経済",
     "keywords": "Jekyll",
-    "url": "/hsworkbookcivics/pages/contact/",
+    "url": "/hsworkbookcivics/pages/R07kyoteshisaku-kokyoseikei/",
     "body": "This is an contact page."
   },"/hsworkbookcivics/pages/design/draft/": {
     "title": "Design Draft",

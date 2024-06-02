@@ -34,17 +34,21 @@
     <body>
         <div class="book"><div class="book-summary">
     <script type="text/javascript">
-        // Fixes the page links scroll problem on both desktop and mobile browsers
+        // デスクトップとモバイルブラウザの両方でページリンクのスクロール問題を修正する
         function pageScrollToTop(element) {
-            // both mobile and non-mobile
+            // ページのトップにスムーズにスクロールする
             $('div.body-inner').animate({scrollTop: 0});
+            // すべての兄弟要素から 'active' クラスを削除する
             $(element).parent().find('li>ul>li').removeClass('active');
-            return true;  // propagate
+            return true;  // 伝播する
         }
-        // Fixes the anchor links scroll problem on mobile browsers
+        // モバイルブラウザでアンカーリンクのスクロール問題を修正する
         function mobilePageScrollToAnchor(element) {
+            // 最も近い 'chapter' のすべての兄弟要素から 'active' クラスを削除する
             $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            // 親要素に 'active' クラスを追加する
             $(element).parent().addClass('active');
+            // ドキュメントの幅が1240px以下の場合、アンカーにスクロールする
             if ($(document).width() <= 1240) {
                 $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
             }
@@ -54,191 +58,60 @@
 
     <nav role="navigation">
         <div id="book-search-input" role="search">
+            <!-- 検索機能の入力フィールド -->
             <input type="text" placeholder="Type to search" />
         </div>
         <div id="book-search-input-link" role="search">
+            <!-- 検索ページへのリンク -->
             <a href="/hsworkbookcivics/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">
             
+            <!-- 非インデックスページ用の通常のリストアイテム -->
             <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics">
             
+                <!-- サイトのホームページへのリンク -->
                 <a href="/hsworkbookcivics/" onclick="pageScrollToTop(this)">
                     雨坂先生の高校公民問題集
                 </a>
             </li>
 
-            <li class="divider"></li>
+            <li class="divider"></li> <!-- 区切り線 -->
 
             
-                <!-- <p>pages</p> -->
+            
+                <!-- 'pages'コレクションをそのまま代入する -->
+                
+
                 
                     
-
+                    <li class="chapter active" data-level="1.2" data-path="/hsworkbookcivics/pages/R06kyote-seikei-honshi/">
                     
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/pages/about/">
-                        
-                            <a href="/hsworkbookcivics/pages/about/" onclick="pageScrollToTop(this)">
-                                About
-                            </a>
-                            
-                                
-                            
-                        </li>
+                        <a href="/hsworkbookcivics/pages/R06kyote-seikei-honshi/" onclick="pageScrollToTop(this)">
+                            令和六年度　大学入学共通テスト本試験　政治・経済
+                        </a>
+                    </li>
+                
                     
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/pages/contact/">
-                        
-                            <a href="/hsworkbookcivics/pages/contact/" onclick="pageScrollToTop(this)">
-                                Contact
-                            </a>
-                            
-                                
-                            
-                        </li>
+                    <li class="chapter active" data-level="1.2" data-path="/hsworkbookcivics/pages/R07kyoteshisaku-kokyoseikei/">
                     
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/pages/design/draft/">
-                        
-                            <a href="/hsworkbookcivics/pages/design/draft/" onclick="pageScrollToTop(this)">
-                                Design Draft
-                            </a>
-                            
-                                
-                            
-                        </li>
+                        <a href="/hsworkbookcivics/pages/R07kyoteshisaku-kokyoseikei/" onclick="pageScrollToTop(this)">
+                            令和七年度　大学入学共通テスト試作問題　公共、政治・経済
+                        </a>
+                    </li>
+                
                     
-
+                    <li class="chapter active" data-level="1.2" data-path="/hsworkbookcivics/pages/design/draft/">
                     
-                        <li class="divider"></li>
-                    
+                        <a href="/hsworkbookcivics/pages/design/draft/" onclick="pageScrollToTop(this)">
+                            Design Draft
+                        </a>
+                    </li>
                 
             
-                <!-- <p>posts</p> -->
-                
-                    
-
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2019-04-29-license.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2019-04-29-license.html" onclick="pageScrollToTop(this)">
-                                License
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2021-08-10-toc.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2021-08-10-toc.html" onclick="pageScrollToTop(this)">
-                                How to Generate TOC
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2022-05-24-page_cover.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2022-05-24-page_cover.html" onclick="pageScrollToTop(this)">
-                                Page with cover image
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2022-06-26-wide_tables.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2022-06-26-wide_tables.html" onclick="pageScrollToTop(this)">
-                                Wide tables
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter active" data-level="1.2" data-path="/hsworkbookcivics/jekyll/2022-06-30-tips_warnings_dangers.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2022-06-30-tips_warnings_dangers.html" onclick="pageScrollToTop(this)">
-                                Tips, Warnings, and Dangers
-                            </a>
-                            
-                                
-                                    <ul><li><a href="#tips" onclick="mobilePageScrollToAnchor(this)" >Tips</a></li><li><a href="#warnings" onclick="mobilePageScrollToAnchor(this)" >Warnings</a></li><li><a href="#dangers" onclick="mobilePageScrollToAnchor(this)" >Dangers</a></li></ul>
-
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2023-08-31-mermaid.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2023-08-31-mermaid.html" onclick="pageScrollToTop(this)">
-                                Diagrams with mermaid.js
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2023-10-14-math-latex.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2023-10-14-math-latex.html" onclick="pageScrollToTop(this)">
-                                MathJax and LaTeX
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2023-12-12-footnotes.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2023-12-12-footnotes.html" onclick="pageScrollToTop(this)">
-                                Using Footnotes
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2024-02-12-capt001.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2024-02-12-capt001.html" onclick="pageScrollToTop(this)">
-                                Capture 001
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/hsworkbookcivics/jekyll/2024-02-12-capt002.html">
-                        
-                            <a href="/hsworkbookcivics/jekyll/2024-02-12-capt002.html" onclick="pageScrollToTop(this)">
-                                Capture 002
-                            </a>
-                            
-                                
-                            
-                        </li>
-                    
-
-                    
-                        <li class="divider"></li>
-                    
-                
+        
             
+        
         </ul>
     </nav>
 </div>
@@ -504,7 +377,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-06-02 18:22:09 +0900"
+        "time": "2024-06-02 20:35:52 +0900"
     },
     "basePath": "/hsworkbookcivics",
     "book": {
