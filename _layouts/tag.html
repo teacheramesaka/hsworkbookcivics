@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.tag }} のタグ</title>
+</head>
+<body>
+  <h1>{{ page.tag }} のタグ</h1>
+  <ul>
+    {% for post in site.tags[page.tag] %}
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
