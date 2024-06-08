@@ -1,4 +1,3 @@
-# Configurations
 title: 雨坂先生の高校公民問題集
 longtitle: 雨坂先生の高校公民問題集
 email: teacheramesaka@gmail.com
@@ -67,3 +66,9 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
