@@ -19,9 +19,10 @@
 
             {%- include toc-date.html -%}
 
-            <!-- title
-            <div class="book-body">
-                <div class="book-header" role="navigation">
+
+            <div class="book-header" role="navigation">
+                <!-- Conditional Title Display -->
+                {% if page.show_title != false %}
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         {% if page.title %}
@@ -30,8 +31,8 @@
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
                     </h1>
-                </div>
-            -->
+                {% endif %}
+            </div>
 
                 <div class="body-inner">
                     {%- include body.html -%}

@@ -2,8 +2,8 @@
 title: R06　共テ本試　政治・経済
 author: 雨坂
 date: 2022-02-04
-category: Jekyll
 layout: post
+show_title: false
 ---
   
 # 令和六年度　大学入学共通テスト本試験　政治・経済  
