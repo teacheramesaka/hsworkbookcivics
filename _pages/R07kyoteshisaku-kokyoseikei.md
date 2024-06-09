@@ -2,7 +2,7 @@
 title: R07　共テ試問　公共、政治・経済
 author: 雨坂
 date: 2022-11-10
-layout: post
+layout: home
 show_title: false
 ---
   
