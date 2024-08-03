@@ -19,5 +19,5 @@ permalink: /
 [経済分野第一章第二節 資本主義の問題はこちら！]({{ site.baseurl }}/tag/eco01_01)  
 
 
-## タグごとの投稿数
-{% include tag_table.html %}
+## HP製作者用
+[問題数勘定]({{ site.baseurl }}/tag/alltags)
