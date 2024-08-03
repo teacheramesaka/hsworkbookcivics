@@ -7,15 +7,13 @@ permalink: /tag/alltags
 <h1>タグ一覧</h1>
 <ul>
   {% assign all_tags = site.tags %}
-  {% for tag_page in site.pages %}
-    {% if tag_page.layout == "tag" %}
-      {% assign tag = tag_page.tag %}
-      {% assign count = all_tags[tag] | size %}
-      <li>
-        <a href="{{ site.baseurl }}/tag/{{ tag_page.tag | slugify }}/">
-          {{ tag_page.tag }} ({{ count }})
-        </a>
-      </li>
-    {% endif %}
+  {% for tag in all_tags %}
+    {% assign tag_name = tag[0] %}
+    {% assign tag_posts = tag[1] %}
+    <li>
+      <a href="{{ site.baseurl }}/tag/{{ tag_name | slugify }}/">
+        {{ tag_name }} ({{ tag_posts | size }})
+      </a>
+    </li>
   {% endfor %}
 </ul>
