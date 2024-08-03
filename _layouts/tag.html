@@ -3,11 +3,13 @@ layout: post
 ---
 
 <h1>タグ: {{ page.tag }}</h1>
+
+{% assign tagname = page.tag %}
+{% assign tagged_posts = site.posts | where: "tags", tagname %}
+<p>このタグが付いたページの数: {{ tagged_posts | size }}</p>
+
 <ul>
-  {% assign tagname = page.tag %}
-  {% for post in site.posts %}
-    {% if post.tags contains tagname %}
+  {% for post in tagged_posts %}
     <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
   {% endfor %}
 </ul>
