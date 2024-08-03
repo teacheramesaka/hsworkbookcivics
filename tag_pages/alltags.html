@@ -1,16 +1,21 @@
 ---
 layout: post
-title: "Tags"
-permalink: /tags/
+title: タグ一覧
+permalink: /alltags/
 ---
 
 <h1>タグ一覧</h1>
 <ul>
-  {% for tag in site.tags %}
-    <li>
-      <a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}/">
-        {{ tag[0] }} ({{ tag[1].size }})
-      </a>
-    </li>
+  {% assign all_tags = site.tags %}
+  {% for tag_page in site.pages %}
+    {% if tag_page.layout == "tag" %}
+      {% assign tag = tag_page.tag %}
+      {% assign count = all_tags[tag] | size %}
+      <li>
+        <a href="{{ site.baseurl }}/tag/{{ tag_page.tag | slugify }}/">
+          {{ tag_page.tag }} ({{ count }})
+        </a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
