@@ -19,4 +19,4 @@ permalink: /
 [経済分野第一章第二節 資本主義の問題はこちら！]({{ site.baseurl }}/tag/eco01_01)  
 
 
-[※自動生成のタグ一覧はこちら]({{ site.baseurl }}/tag/alltags)  
+[※タグ一覧はこちら]({{ site.baseurl }}/tag/alltags)  
