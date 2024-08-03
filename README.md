@@ -19,4 +19,5 @@ permalink: /
 [経済分野第一章第二節 資本主義の問題はこちら！]({{ site.baseurl }}/tag/eco01_01)  
 
 
-[※タグ一覧はこちら]({{ site.baseurl }}/tag/alltags)  
+## タグごとの投稿数
+{% include tag_table.html %}

@@ -1,0 +1,18 @@
+<table>
+    <thead>
+      <tr>
+        <th>タグ</th>
+        <th>投稿数</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign tags = "資本主義,社会主義,経済の三主体,需要供給曲線" | split: ',' %}
+      {% for tag in tags %}
+        {% assign tag_posts = site.tags[tag] %}
+        <tr>
+          <td>{{ tag }}</td>
+          <td>{% if tag_posts %}{{ tag_posts | size }}{% else %}0{% endif %}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+</table>
