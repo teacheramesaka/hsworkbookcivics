@@ -1,16 +1,45 @@
----
-layout: post
-show_title: false
----
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入 -->
+    {%- include head.html -%}
+</head>
+<body>
+    <div class="book">
+        <!-- toc-date.htmlをインクルードして、ページの目次を挿入 -->
+        {%- include toc-date.html -%}
 
-<h1>タグ: {{ page.tag }}</h1>
+        <div class="book-body">
+            <div class="book-header" role="navigation">
+                <!-- タイトル表示 -->
+                <h1>タグ: {{ page.tag }}</h1>
+            </div>
 
-{% assign tagname = page.tag %}
-{% assign tagged_posts = site.posts | where: "tags", tagname %}
-<p>このタグが付いたページの数: {{ tagged_posts | size }}</p>
+            <div class="body-inner">
+                <!-- タグ付けされた投稿のリストを表示 -->
+                {% assign tagname = page.tag %}
+                {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                <p>このタグが付いたページの数: {{ tagged_posts | size }}</p>
 
-<ul>
-  {% for post in tagged_posts %}
-    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+                <ul>
+                    {% for post in tagged_posts %}
+                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
+    <script>
+    var gitbook = gitbook || [];
+    gitbook.push(function() {
+        gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
+    });
+    </script>
+
+    <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
+    {%- include footer.html -%}
+
+</body>
+</html>

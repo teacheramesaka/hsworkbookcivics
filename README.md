@@ -16,8 +16,6 @@ permalink: /
 ２：←のサイドバー最上部で、見たい過去問を検索  
 ３：↓の一覧から、欲しい問題を探してみる  
   
-[経済分野第一章第二節 資本主義の問題はこちら！]({{ site.baseurl }}/tag/eco01_01)  
 
-
-## HP製作者用
-[問題数勘定]({{ site.baseurl }}/tag/alltags)
+## 分野・章別一覧
+{% include tag_table.html %}
