@@ -10,8 +10,9 @@ permalink: /tag/alltags
   {% for tag in all_tags %}
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] %}
+    {% assign tag_link = site.data.tag_links[tag_name] %}
     <li>
-      <a href="{{ site.baseurl }}/tag/{{ tag_name | slugify }}/">
+      <a href="{{ site.baseurl }}{{ tag_link }}">
         {{ tag_name }} ({{ tag_posts | size }})
       </a>
     </li>
