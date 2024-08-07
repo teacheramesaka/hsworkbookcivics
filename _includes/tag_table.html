@@ -2,93 +2,304 @@
 
 <h3>政治分野第一章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国家とは何か }}">国家とは何か ({{ site.tags['国家とは何か'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国家の正当性の原理 }}">国家の正当性の原理 ({{ site.tags['国家の正当性の原理'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.法の支配と法治主義 }}">法の支配と法治主義 ({{ site.tags['法の支配と法治主義'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.人権の拡大 }}">人権の拡大 ({{ site.tags['人権の拡大'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.世界の政治制度 }}">世界の政治制度 ({{ site.tags['世界の政治制度'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.政党 }}">政党 ({{ site.tags['政党'] | size }})</a></li>
+  {% assign tag_name = "国家とは何か" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "国家の正当性の原理" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "法の支配と法治主義" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "人権の拡大" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "世界の政治制度" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "政党" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>政治分野第二章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.大日本帝国憲法と日本国憲法 }}">大日本帝国憲法と日本国憲法 ({{ site.tags['大日本帝国憲法と日本国憲法'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法の制定 }}">日本国憲法の制定 ({{ site.tags['日本国憲法の制定'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と国防 }}">日本国憲法と国防 ({{ site.tags['日本国憲法と国防'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と人権（自由権） }}">日本国憲法と人権（自由権） ({{ site.tags['日本国憲法と人権（自由権）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と人権（参政権） }}">日本国憲法と人権（参政権） ({{ site.tags['日本国憲法と人権（参政権）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と人権（社会権） }}">日本国憲法と人権（社会権） ({{ site.tags['日本国憲法と人権（社会権）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と人権（平等権） }}">日本国憲法と人権（平等権） ({{ site.tags['日本国憲法と人権（平等権）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本国憲法と人権（請求権） }}">日本国憲法と人権（請求権） ({{ site.tags['日本国憲法と人権（請求権）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.新しい人権 }}">新しい人権 ({{ site.tags['新しい人権'] | size }})</a></li>
+  {% assign tag_name = "大日本帝国憲法と日本国憲法" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法の制定" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と国防" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と人権（自由権）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と人権（参政権）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と人権（社会権）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と人権（平等権）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本国憲法と人権（請求権）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "新しい人権" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>政治分野第三章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.立法府（国会） }}">立法府（国会） ({{ site.tags['立法府（国会）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.行政府（内閣） }}">行政府（内閣） ({{ site.tags['行政府（内閣）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.司法府（裁判所） }}">司法府（裁判所） ({{ site.tags['司法府（裁判所）'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.選挙制度 }}">選挙制度 ({{ site.tags['選挙制度'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.現代日本の政党政治 }}">現代日本の政党政治 ({{ site.tags['現代日本の政党政治'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.地方自治 }}">地方自治 ({{ site.tags['地方自治'] | size }})</a></li>
+  {% assign tag_name = "立法府（国会）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "行政府（内閣）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "司法府（裁判所）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "選挙制度" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "現代日本の政党政治" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "地方自治" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>政治分野第四章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国際政治の誕生と発展 }}">国際政治の誕生と発展 ({{ site.tags['国際政治の誕生と発展'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.戦後国際政治史―ColdWar }}">戦後国際政治史―ColdWar ({{ site.tags['戦後国際政治史―ColdWar'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.現代国際政治史―ModernWarfare }}">現代国際政治史―ModernWarfare ({{ site.tags['現代国際政治史―ModernWarfare'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.世界の紛争 }}">世界の紛争 ({{ site.tags['世界の紛争'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.戦後日本の国際政治 }}">戦後日本の国際政治 ({{ site.tags['戦後日本の国際政治'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国際連合 }}">国際連合 ({{ site.tags['国際連合'] | size }})</a></li>
+  {% assign tag_name = "国際政治の誕生と発展" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "戦後国際政治史―ColdWar" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "現代国際政治史―ModernWarfare" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "世界の紛争" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "戦後日本の国際政治" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "国際連合" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h2>経済分野</h2>
 
 <h3>経済分野第一章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.資本主義 }}">資本主義 ({{ site.tags['資本主義'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.比較生産費説 }}">比較生産費説 ({{ site.tags['比較生産費説'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.社会主義 }}">社会主義 ({{ site.tags['社会主義'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.経済の三主体 }}">経済の三主体 ({{ site.tags['経済の三主体'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.需要供給曲線 }}">需要供給曲線 ({{ site.tags['需要供給曲線'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.市場の失敗 }}">市場の失敗 ({{ site.tags['市場の失敗'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.企業とは }}">企業とは ({{ site.tags['企業とは'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.通貨とは何か }}">通貨とは何か ({{ site.tags['通貨とは何か'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.フローとストック }}">フローとストック ({{ site.tags['フローとストック'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.経済成長率 }}">経済成長率 ({{ site.tags['経済成長率'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.景気変動とインフレ、デフレ }}">景気変動とインフレ、デフレ ({{ site.tags['景気変動とインフレ、デフレ'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.財政、予算、会計 }}">財政、予算、会計 ({{ site.tags['財政、予算、会計'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.金融政策と銀行 }}">金融政策と銀行 ({{ site.tags['金融政策と銀行'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.貧富の格差を表す指標 }}">貧富の格差を表す指標 ({{ site.tags['貧富の格差を表す指標'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.税 }}">税 ({{ site.tags['税'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国際経済の仕組み }}">国際経済の仕組み ({{ site.tags['国際経済の仕組み'] | size }})</a></li>
+  {% assign tag_name = "資本主義" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "比較生産費説" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "社会主義" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "経済の三主体" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "需要供給曲線" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "市場の失敗" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "企業とは" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "通貨とは何か" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "フローとストック" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "経済成長率" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "景気変動とインフレ、デフレ" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "財政、予算、会計" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "金融政策と銀行" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "貧富の格差を表す指標" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "税" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "国際経済の仕組み" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>経済分野第二章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.労働問題 }}">労働問題 ({{ site.tags['労働問題'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.社会保障 }}">社会保障 ({{ site.tags['社会保障'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.今日的な福祉問題 }}">今日的な福祉問題 ({{ site.tags['今日的な福祉問題'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.消費者問題 }}">消費者問題 ({{ site.tags['消費者問題'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.公害問題、環境問題 }}">公害問題、環境問題 ({{ site.tags['公害問題、環境問題'] | size }})</a></li>
+  {% assign tag_name = "労働問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "社会保障" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "今日的な福祉問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "消費者問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "公害問題、環境問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>経済分野第三章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国際経済通史 }}">国際経済通史 ({{ site.tags['国際経済通史'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国際経済テーマ史 }}">国際経済テーマ史 ({{ site.tags['国際経済テーマ史'] | size }})</a></li>
+  {% assign tag_name = "国際経済通史" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "国際経済テーマ史" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h3>経済分野第四章</h3>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本経済通史 }}">日本経済通史 ({{ site.tags['日本経済通史'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.日本経済テーマ史 }}">日本経済テーマ史 ({{ site.tags['日本経済テーマ史'] | size }})</a></li>
+  {% assign tag_name = "日本経済通史" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "日本経済テーマ史" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
 <h2>その他の問題</h2>
 <ul>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.国語問題 }}">国語問題 ({{ site.tags['国語問題'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.計算問題 }}">計算問題 ({{ site.tags['計算問題'] | size }})</a></li>
-  <li><a href="{{ site.baseurl }}{{ site.data.tag_links.時事問題 }}">時事問題 ({{ site.tags['時事問題'] | size }})</a></li>
+  {% assign tag_name = "国語問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "計算問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "時事問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
