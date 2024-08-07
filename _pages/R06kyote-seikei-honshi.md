@@ -2,7 +2,7 @@
 title: R06　共テ本試　政治・経済
 author: 雨坂
 date: 2024-01-13
-layout: home
+layout: post
 show_title: false
 ---
   

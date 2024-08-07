@@ -1,27 +1,31 @@
 <!DOCTYPE HTML>
-<html lang="en" >
-    <head>
-        <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入 -->
-        {%- include head.html -%}
+<html lang="en">
+<head>
+    <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入 -->
+    {%- include head.html -%}
 
-        <!-- 前のページが存在する場合、そのURLへのリンクを設定 -->
-        {% if page.previous %}
-            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-        <!-- 前のページが存在しない場合、ホームページへのリンクを設定 -->
-        {% else %}
-            <link rel="prev" href="{{site.baseurl}}/" />
-        {% endif %}
+    <!-- 前のページが存在する場合、そのURLへのリンクを設定 -->
+    {% if page.previous %}
+        <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
+    <!-- 前のページが存在しない場合、ホームページへのリンクを設定 -->
+    {% else %}
+        <link rel="prev" href="{{site.baseurl}}/" />
+    {% endif %}
 
-        <!-- 次のページが存在する場合、そのURLへのリンクを設定 -->
-        {% if page.next %}
-            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
-        {% endif %}
-    </head>
-    <body>
-        <div class="book">
-            <!-- toc-date.htmlをインクルードして、ページの目次を挿入 -->
+    <!-- 次のページが存在する場合、そのURLへのリンクを設定 -->
+    {% if page.next %}
+        <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
+    {% endif %}
+</head>
+<body>
+    <div class="book">
+
+        <!-- 目次をページ上部に表示 -->
+        <div class="toc">
             {%- include toc-date.html -%}
+        </div>
 
+        <div class="book-body">
             <div class="book-header" role="navigation">
                 <!-- 条件付きタイトル表示 -->
                 {% if page.show_title != false %}
@@ -74,5 +78,6 @@
         <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
         {%- include footer.html -%}
 
-    </body>
+    </div>
+</body>
 </html>
