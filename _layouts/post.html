@@ -1,40 +1,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入 -->
     {%- include head.html -%}
 
-    <!-- 前のページが存在する場合、そのURLへのリンクを設定 -->
     {% if page.previous %}
         <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-    <!-- 前のページが存在しない場合、ホームページへのリンクを設定 -->
     {% else %}
         <link rel="prev" href="{{site.baseurl}}/" />
     {% endif %}
 
-    <!-- 次のページが存在する場合、そのURLへのリンクを設定 -->
     {% if page.next %}
         <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
     {% endif %}
+    <style>
+        .toc {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background: #f9f9f9;
+        }
+
+        .toc h2 {
+            margin-top: 0;
+        }
+
+        .toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .toc ul li {
+            margin: 5px 0;
+        }
+
+        .toc-level-2 {
+            margin-left: 20px;
+        }
+
+        .toc-level-3 {
+            margin-left: 40px;
+        }
+
+        .toc-level-4 {
+            margin-left: 60px;
+        }
+    </style>
 </head>
 <body>
     <div class="book">
 
-        <!-- 目次をページ上部に表示 -->
-        <div class="toc">
-            {%- include toc-date.html -%}
-        </div>
-
         <div class="book-body">
             <div class="book-header" role="navigation">
-                <!-- 条件付きタイトル表示 -->
                 {% if page.show_title != false %}
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
-                        <!-- ページにtitleが設定されている場合、そのタイトルを表示 -->
                         {% if page.title %}
                             <a href="." >{{ page.title | escape }}</a>
-                        <!-- そうでない場合、サイト全体のタイトルを表示 -->
                         {% else %}
                             <a href="." >{{ site.title | escape }}</a>
                         {% endif %}
@@ -43,22 +64,24 @@
             </div>
 
             <div class="body-inner">
-                <!-- body.htmlをインクルードして、ページの主要なコンテンツを挿入 -->
+                <!-- 目次をページ本体の上部に表示 -->
+                <div class="toc">
+                    <h2>目次</h2>
+                    <ul id="toc-list"></ul>
+                </div>
+
                 {%- include body.html -%}
 
-                <!-- 前のページが存在する場合、そのページへのナビゲーションリンクを設定 -->
                 {% if page.previous %}
                     <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
                         <i class="fa fa-angle-left"></i>
                     </a>
-                <!-- 前のページが存在しない場合、ホームページへのナビゲーションリンクを設定 -->
                 {% else %}
                     <a href="{{site.baseurl}}/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 {% endif %}
 
-                <!-- 次のページが存在する場合、そのページへのナビゲーションリンクを設定 -->
                 {% if page.next %}
                     <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
                         <i class="fa fa-angle-right"></i>
@@ -68,7 +91,35 @@
         </div>
     </div>
 
-    <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var content = document.querySelector('.body-inner').innerHTML;
+            var tocList = document.getElementById('toc-list');
+            var headers = content.match(/<h[1-4]>.*?<\/h[1-4]>/g);
+
+            if (headers) {
+                headers.forEach(function(header) {
+                    var level = header.match(/<h([1-4])>/)[1];
+                    var text = header.replace(/<.*?>/g, '');
+                    var id = text.toLowerCase().replace(/[^\w]+/g, '-');
+
+                    var li = document.createElement('li');
+                    li.classList.add('toc-level-' + level);
+                    var a = document.createElement('a');
+                    a.href = '#' + id;
+                    a.textContent = text;
+                    li.appendChild(a);
+                    tocList.appendChild(li);
+
+                    // Set ID to the header
+                    content = content.replace(header, '<h' + level + ' id="' + id + '">' + text + '</h' + level + '>');
+                });
+
+                document.querySelector('.body-inner').innerHTML = content;
+            }
+        });
+    </script>
+
     <script>
     var gitbook = gitbook || [];
     gitbook.push(function() {
@@ -76,7 +127,6 @@
     });
     </script>
 
-    <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
     {%- include footer.html -%}
 
 </body>
