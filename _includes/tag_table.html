@@ -1,6 +1,4 @@
-<h3>政治分野</h3>
-
-<h4>政治分野第一章</h4>
+<h3>政治分野第一章</h3>
 <ul>
   {% assign tag_name = "国家とは何か" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -33,7 +31,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>政治分野第二章</h4>
+<h3>政治分野第二章</h3>
 <ul>
   {% assign tag_name = "大日本帝国憲法と日本国憲法" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -81,7 +79,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>政治分野第三章</h4>
+<h3>政治分野第三章</h3>
 <ul>
   {% assign tag_name = "立法府（国会）" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -114,7 +112,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>政治分野第四章</h4>
+<h3>政治分野第四章</h3>
 <ul>
   {% assign tag_name = "国際政治の誕生と発展" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -147,9 +145,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h3>経済分野</h3>
-
-<h4>経済分野第一章</h4>
+<h3>経済分野第一章</h3>
 <ul>
   {% assign tag_name = "資本主義" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -232,7 +228,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>経済分野第二章</h4>
+<h3>経済分野第二章</h3>
 <ul>
   {% assign tag_name = "労働問題" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -260,7 +256,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>経済分野第三章</h4>
+<h3>経済分野第三章</h3>
 <ul>
   {% assign tag_name = "国際経済通史" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -273,7 +269,7 @@
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 </ul>
 
-<h4>経済分野第四章</h4>
+<h3>経済分野第四章</h3>
 <ul>
   {% assign tag_name = "日本経済通史" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
@@ -302,4 +298,10 @@
   {% assign tag_link = site.data.tag_links[tag_name] %}
   {% assign tag_posts = site.tags[tag_name] %}
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
+  {% assign tag_name = "倫理分野" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
 </ul>

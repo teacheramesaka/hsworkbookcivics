@@ -326,6 +326,11 @@
                         {% assign tagname = "時事問題" %}
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
                         <li><a href="{{ site.baseurl }}/tag/zeitproblem">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "倫理分野" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/zeitproblem">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
                     </ul>
                 </li>
             </ul>
