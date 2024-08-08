@@ -66,18 +66,18 @@
                 {% endif %}
             </div>
         </div>
-
-        <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
-        <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
-        });
-        </script>
-
-        <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
-        {%- include footer.html -%}
-
     </div>
+
+    <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
+    <script>
+    var gitbook = gitbook || [];
+    gitbook.push(function() {
+        gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
+    });
+    </script>
+
+    <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
+    {%- include footer.html -%}
+
 </body>
 </html>
