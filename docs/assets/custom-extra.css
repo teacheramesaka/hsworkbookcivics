@@ -1,0 +1,41 @@
+/* サイドバーのスタイル */
+.book-summary ul.summary ul {
+    display: none; /* 初期状態では折りたたむ */
+}
+
+.book-summary ul.summary .chapter.active > ul {
+    display: block; /* アクティブな項目を展開 */
+}
+
+.book-summary ul.summary .chapter .toggle {
+    cursor: pointer;
+}
+
+.book-summary ul.summary .chapter .toggle::before {
+    content: "▶"; /* 折りたたまれた状態のアイコン */
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.book-summary ul.summary .chapter.active .toggle::before {
+    content: "▼"; /* 展開された状態のアイコン */
+}
+
+.chapter ul {
+    display: none;
+}
+
+.chapter.active > ul {
+    display: block;
+}
+
+.toggle::before {
+    content: "\25B6"; /* arrow pointing right */
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.chapter.active > .toggle::before {
+    content: "\25BC"; /* arrow pointing down */
+}
