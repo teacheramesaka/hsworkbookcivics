@@ -30,12 +30,21 @@
 }
 
 .toggle::before {
-    content: "\25B6"; /* arrow pointing right */
+    content: "\25B6"; /* 右向き矢印 */
     display: inline-block;
     margin-right: 5px;
     cursor: pointer;
 }
 
 .chapter.active > .toggle::before {
-    content: "\25BC"; /* arrow pointing down */
+    content: "\25BC"; /* 下向き矢印 */
+}
+
+/* 初めて訪れたユーザーに対して全て折りたたみ */
+.chapter {
+    display: none;
+}
+
+.chapter.active {
+    display: list-item;
 }
