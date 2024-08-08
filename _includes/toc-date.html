@@ -67,109 +67,265 @@
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">政治分野第一章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_01">国家とは何か</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_03">国家の正当性の原理</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_04">法の支配と法治主義</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_05">人権の拡大</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_07">世界の政治制度</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol01_08">政党</a></li>
+                        {% assign tagname = "国家とは何か" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "国家の正当性の原理" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "法の支配と法治主義" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "人権の拡大" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "世界の政治制度" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_07">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "政党" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol01_08">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.2">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">政治分野第二章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_01">大日本帝国憲法と日本国憲法</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_02">日本国憲法の制定</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_03">日本国憲法と国防</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_05">日本国憲法と人権（自由権）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_06">日本国憲法と人権（参政権）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_07">日本国憲法と人権（社会権）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_08">日本国憲法と人権（平等権）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_09">日本国憲法と人権（請求権）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol02_10">新しい人権</a></li>
+                        {% assign tagname = "大日本帝国憲法と日本国憲法" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法の制定" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と国防" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と人権（自由権）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と人権（参政権）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_06">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と人権（社会権）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_07">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と人権（平等権）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_08">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本国憲法と人権（請求権）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_09">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "新しい人権" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_10">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.3">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">政治分野第三章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_02">立法府（国会）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_03">行政府（内閣）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_04">司法府（裁判所）</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_05">選挙制度</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_06">現代日本の政党政治</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol03_07">地方自治</a></li>
+                        {% assign tagname = "立法府（国会）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "行政府（内閣）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "司法府（裁判所）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "選挙制度" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "現代日本の政党政治" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_06">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "地方自治" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_07">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.4">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">政治分野第四章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_01">国際政治の誕生と発展</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_02">戦後国際政治史―ColdWar</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_03">現代国際政治史―ModernWarfare</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_04">世界の紛争</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_05">戦後日本の国際政治</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/pol04_06">国際連合</a></li>
+                        {% assign tagname = "国際政治の誕生と発展" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "戦後国際政治史―ColdWar" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "現代国際政治史―ModernWarfare" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "世界の紛争" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "戦後日本の国際政治" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "国際連合" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol04_06">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.5">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">経済分野第一章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_01">資本主義</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_01b">比較生産費説</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_02">社会主義</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_04">経済の三主体</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_05">需要供給曲線</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_06">市場の失敗</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_07">企業とは</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_08">通貨とは何か</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_09">フローとストック</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_10">経済成長率</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_11">景気変動とインフレ、デフレ</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_12">財政、予算、会計</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_13">金融政策と銀行</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_14">貧富の格差を表す指標</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_15">税</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco01_16">国際経済の仕組み</a></li>
+                        {% assign tagname = "資本主義" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "比較生産費説" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_01b">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "社会主義" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "経済の三主体" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "需要供給曲線" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "市場の失敗" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_06">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "企業とは" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_07">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "通貨とは何か" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_08">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "フローとストック" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_09">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "経済成長率" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_10">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "景気変動とインフレ、デフレ" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_11">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "財政、予算、会計" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_12">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "金融政策と銀行" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_13">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "貧富の格差を表す指標" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_14">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "税" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_15">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "国際経済の仕組み" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco01_16">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.6">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">経済分野第二章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/eco02_01">労働問題</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco02_02">社会保障</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco02_03">今日的な福祉問題</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco02_04">消費者問題</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco02_05">公害問題、環境問題</a></li>
+                        {% assign tagname = "労働問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco02_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "社会保障" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco02_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "今日的な福祉問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco02_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "消費者問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco02_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "公害問題、環境問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco02_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.7">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">経済分野第三章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/eco03_01">国際経済通史</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco03_02">国際経済テーマ史</a></li>
+                        {% assign tagname = "国際経済通史" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco03_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "国際経済テーマ史" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco03_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.8">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">経済分野第四章</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/eco04_01-5">日本経済通史</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/eco04_06">日本経済テーマ史</a></li>
+                        {% assign tagname = "日本経済通史" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco04_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "日本経済テーマ史" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/eco04_06">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
                 <li class="chapter" data-level="2.9">
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">その他の問題</a>
                     <ul>
-                        <li><a href="{{ site.baseurl }}/tag/landessprache">国語問題</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/berechnung">計算問題</a></li>
-                        <li><a href="{{ site.baseurl }}/tag/zeitproblem">時事問題</a></li>
+                        {% assign tagname = "国語問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/landessprache">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "計算問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/berechnung">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
+                        {% assign tagname = "時事問題" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/zeitproblem">{{ tagname }} ({{ tagged_posts | size }})</a></li>
                     </ul>
                 </li>
             </ul>

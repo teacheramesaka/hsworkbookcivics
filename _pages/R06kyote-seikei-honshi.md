@@ -1061,12 +1061,13 @@ f　下降
 ⑧　ア-d　　イ-f  
   
   
-[＃計算問題]({{ site.baseurl }}/tag/berechnung)　＃フローとストック　＃良問  
+[＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃フローとストック]({{ site.baseurl }}/tag/eco01_09)　＃良問  
   
   
   
 ### 問４解説  
-正解は⑦  
+正解：⑦  
+[復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
   
 ・経済成長率の問題は普通、名目GDPとGDPデフレーターを見せて「実質成長率は？」と聞く  
 ・本問は、名目GDPと実質GDPを出してGDPデフレーターや物価変動を聞く、ひねった問題である  
@@ -1123,7 +1124,7 @@ f　下降
   
   
 ### 問５解説  
-正解は③  
+正解：③  
   
 ・一見すると「市場の失敗の公害関係の問題かな？」となるが、その実、ただの計算問題である  
   
@@ -1187,7 +1188,7 @@ f　下降
 ⑥　ア　民間設備投資　　イ　民間部門の在庫　　ウ　GDP  
   
   
-[＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃日本経済史]({{ site.baseurl }}/tag/eco04_01-5)　[＃時事問題]({{ site.baseurl }}/tag/zeitproblem)　＃難問  
+[＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃日本経済通史]({{ site.baseurl }}/tag/eco04_01-5)　[＃時事問題]({{ site.baseurl }}/tag/zeitproblem)　＃難問  
   
 ### 問６解説  
 正解：④  
