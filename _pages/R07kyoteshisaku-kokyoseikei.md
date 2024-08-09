@@ -37,7 +37,7 @@ Y３：例えば、行為の善さは行為の結果にあるのではなく、�
   
 ### 問１解説  
 正解：④  
-[復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)
+[復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)  
   
 ・リード文Y3を見ると、以下のようにある  
   
@@ -128,7 +128,7 @@ C　男女雇用機会均等法
   
 ### 問４解説  
 正解:②  
-[消費者問題](https://teacheramesaka.github.io/highschooleconomics/02_04.html)
+[消費者問題](https://teacheramesaka.github.io/highschooleconomics/02_04.html)  
   
 ・アとイはそのまんま正文  
 ・現代日本では、年齢差別は合理的差別、即ちよい差別であり合法であるとされている  
@@ -159,7 +159,8 @@ C　男女雇用機会均等法
   
 ### 問１解説  
 正解：②  
-[復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)
+[復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)  
+  
 ・アリストテレスの言う正義は、まず大まかに二種類に分けられる  
   
 ［全体的正義］：「全ての人は法を守りましょう」的な正義  
@@ -409,8 +410,8 @@ D：イギリス
   
 ### 問３解説  
 正解：②  
-[復習用資料：政治分野第三章／選挙制度](https://teacheramesaka.github.io/highschoolpolitics/03_05.html)
-[復習用資料：政治分野第三章／現代日本の政党政治](https://teacheramesaka.github.io/highschoolpolitics/03_06.html)
+[復習用資料：政治分野第三章／選挙制度](https://teacheramesaka.github.io/highschoolpolitics/03_05.html)  
+[復習用資料：政治分野第三章／現代日本の政党政治](https://teacheramesaka.github.io/highschoolpolitics/03_06.html)  
   
 ・選挙制度そのものと言うよりは、歴史知識について聞いてくる問題  
 ・と言うのは、1991年から1993年は、四つの事件が重なる非常に重要な時期である  
@@ -451,8 +452,8 @@ D：イギリス
   
 ### 問４解説  
 正解：①  
-[復習用資料：政治分野第四章／戦後国際政治史―ColdWar](https://teacheramesaka.github.io/highschoolpolitics/04_02.html)
-[復習用資料：政治分野第四章／国際連合](https://teacheramesaka.github.io/highschoolpolitics/04_06.html)
+[復習用資料：政治分野第四章／戦後国際政治史―ColdWar](https://teacheramesaka.github.io/highschoolpolitics/04_02.html)  
+[復習用資料：政治分野第四章／国際連合](https://teacheramesaka.github.io/highschoolpolitics/04_06.html)  
   
 ・戦後国際政治史について問う問題に見せかけて、むしろ、国際連合について聞いている問題。即ち…  
   
@@ -555,8 +556,8 @@ D：イギリス
   
 ### 問１解説  
 正解：③  
-[復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html)
-[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)
+[復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html) 
+[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)  
 
 ・日本経済史を覚えた上で、図表を正しく読み取れないと解けない良問  
 ・まず、それぞれの年代の特徴を挙げてみよう  
@@ -820,8 +821,8 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ### 問１解説  
 正解：④  
-[復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html)
-[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)
+[復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html)  
+[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)  
   
 ・消去法でも、「④が正解だ！」「他は知らんけど」でも解ける問題である  
 ⇒ただ、日本経済史は頻出のお題な割に、公共・政治経済の授業ではあんまりきっちりやらない（私の授業ではきっちりやるけど）。本問の全選択肢ぐらいなら解説できるぐらい、しっかり勉強しておきたい  
@@ -1087,10 +1088,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ### 問１解説  
 正解：⑥  
-[復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)
-[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)
-[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)
-
+[復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)  
+[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
+[復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)  
+  
 ・図表を読み取る、という要素はほとんどない問題  
 ・一応国の名前ぐらいは読んだ方がいいがそれぐらいで、後は知識さえあれば解ける問題である  
   
@@ -1209,7 +1210,7 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ### 問３解説  
 正解：アが①、イが②  
-[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)
+[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
   
 ・イギリスに於ける、EU残留支持理由と離脱支持理由を一つずつ選べ、という問題  
 ・解き方は色々考えられるが、今回は、明らかに変な選択肢を除外するところから始めよう  
@@ -1256,7 +1257,7 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ### 問４解説  
 正解：②  
-[復習用資料：政治分野第四章／現代国際政治史―ModernWarfare](https://teacheramesaka.github.io/highschoolpolitics/04_03.html)
+[復習用資料：政治分野第四章／現代国際政治史―ModernWarfare](https://teacheramesaka.github.io/highschoolpolitics/04_03.html)  
   
 ・これ世界史の問題に片足突っ込んでないか？　感がある問題  
 ※正直に言うと両足突っ込んでると思います。こういうの共テで出さないでほしい  
@@ -1342,7 +1343,7 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ### 問５解説  
 正解：⑧  
-[復習用資料：政治分野第一章／人権の拡大](https://teacheramesaka.github.io/highschoolpolitics/01_05.html)
+[復習用資料：政治分野第一章／人権の拡大](https://teacheramesaka.github.io/highschoolpolitics/01_05.html)  
   
 ・表も読み取れなければいけないし、常識も問われるし、政治経済の知識も問われる欲張り問題  
   
