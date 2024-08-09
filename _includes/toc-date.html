@@ -32,20 +32,31 @@
             <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
         </div>
         <ul class="summary">
+
+            <!-- りっくんから引き継いだ時あったもの、トップページへのリンク
             {% if page.url == "/index.html" or page.url == "/" %}
-            <!-- インデックスページをアクティブとしてマークする -->
             <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
             {% else %}
-            <!-- 非インデックスページ用の通常のリストアイテム -->
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
             {% endif %}
-                <!-- サイトのホームページへのリンク -->
                 <a href="{{site.baseurl}}/" onclick="pageScrollToTop(this)">
                     {{ site.title | escape }}
                 </a>
             </li>
+            -->
+
+            <!-- ↓トップページ等へのリンク↓ -->
+
+            <li class="chapter" data-level="1.1">
+                <a href="{{ site.baseurl }}">公民問題集トップページへ</a>
+            </li>
+            <li class="chapter" data-level="1.1">
+                <a href="https://teacheramesaka.github.io/studyfiles/">雨坂先生の復習用資料集へ</a>
+            </li>
 
             <li class="divider"></li> <!-- 区切り線 -->
+
+            <!-- ↓全問へのリンク↓ -->
 
             <li class="chapter" data-level="1.1">
                 <span class="toggle"></span>
@@ -58,6 +69,8 @@
             <li class="divider"></li>
 
         <li class="divider"></li> <!-- 区切り線 -->
+
+            <!-- ↓各種タグへのリンク↓ -->
 
         <li class="chapter" data-level="1.1">
             <span class="toggle"></span>
