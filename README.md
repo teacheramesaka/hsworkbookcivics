@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 雨坂先生の公民問題集　表紙
+title: 雨坂先生の公民問題集
 permalink: /
 ---
 
