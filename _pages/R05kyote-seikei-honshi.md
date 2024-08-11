@@ -30,7 +30,9 @@ show_title: false
   
 ①下線部ア　　②下線部イ　　③下線部ウ　　④下線部エ  
   
-＃資本主義　＃社会主義  
+[＃資本主義]({{ site.baseurl }}/tag/eco01_01/)　[＃社会主義]({{ site.baseurl }}/tag/eco01_02/)  
   
 ### 問１解説
 正解：④
+[復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)
+[復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)
