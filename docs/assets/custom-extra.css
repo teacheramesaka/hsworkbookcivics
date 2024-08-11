@@ -51,7 +51,7 @@
 
 /* 折り畳み文書の作成 */
 .collapsible-content {
-    display: none;
+    display: none; /* デフォルトで非表示 */
     padding: 0 18px;
     overflow: hidden;
     background-color: #f1f1f1;
