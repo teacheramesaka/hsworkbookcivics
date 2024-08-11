@@ -33,6 +33,29 @@ show_title: false
 [＃資本主義]({{ site.baseurl }}/tag/eco01_01/)　[＃社会主義]({{ site.baseurl }}/tag/eco01_02/)  
   
 ### 問１解説
-正解：④
-[復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)
-[復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)
+正解：④  
+[復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)  
+[復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)  
+
+### 問２
+東アジア諸国に関連して、生徒Xは、日本、韓国、中国の経済発展に関心をもち、これら3か国の2000年、2010年および2020年の実質GDP成長率、一人当たり実質GDP、一般政府総債務残高の対GDP比を調べ、次の表にまとめた。表中のA～C国はこれら3か国のいずれかである。後の記述ア～ウは、これら3か国についてそれぞれ説明したものである。A～C国と記述ア～ウの組合せとして最も適当なものを、後の①～⑥のうちから一つ選べ。  
+  
+![]( {{ site.baseurl }}/media/R05kyote-seikei-honshi/01-02.png)  
+  
+ア　この国は、1978年からの改革開放政策の下で、外資導入などにより経済成長を続けてきた。この国の経済運営方針は、低・中所得国にとって、一つの経済発展モデルになっている。  
+イ　この国は、1960年代から工業化による経済成長が進み、NIESの一つに数えられた。その後、アジア通貨危機による経済危機も克服し、現在はアジア有数の高所得国となっている。  
+ウ　この国は、1950年代から1973年頃まで高度経済成長を遂げ、急速に欧米の先進国に追いついた。しかし、1990年代以降は低成長が常態化しており、政府部門の累積赤字の拡大が議論の的となっている  
+  
+①A国─アB国─イC国─ウ　　②A国─アB国─ウC国─イ  
+③A国─イB国—アC国─ウ　　④A国─イB国─ウC国─ア  
+⑤A国─ウB国—アC国─イ　　⑥A国─ウB国─イC国―ア  
+  
+[＃国際経済テーマ史]({{ site.baseurl }}/tag/eco03_02/)　[＃日本経済通史]({{ site.baseurl }}/tag/pol01_01-5/)  
+  
+### 問２解説  
+正解：⑥  
+[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)
+[復習用資料：経済分野第四章／高度経済成長期](https://teacheramesaka.github.io/highschooleconomics/04_03.html)
+  
+・国際経済テーマ史の中でも、「2010年以降の国際経済」を聞いてきている  
+・また、日本経済通史の中でも、「高度経済成長期」を聞いてきている問題である  
