@@ -13,4 +13,19 @@ document.addEventListener("DOMContentLoaded", function() {
             chapter.classList.toggle('active');
         });
     });
+
+    // 折り畳みボタンの処理
+    var collapsibleButtons = document.querySelectorAll('.collapsible-button');
+    
+    collapsibleButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            this.classList.toggle('active');
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    });
 });

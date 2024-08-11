@@ -1,62 +1,68 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head>
+
+        <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入する -->
         {%- include head.html -%}
 
-        {% if page.previous %}
-            <link rel="prev" href="{{site.baseurl}}{{page.previous.url}}" />
-        {% else %}
-            <link rel="prev" href="{{site.baseurl}}/" />
-        {% endif %}
+        <!-- site.postsを逆順にしてreversed_postsという変数に代入する。最新の投稿を最初に表示するため -->
+        {% assign reversed_posts = site.posts | reverse %}
 
-        {% if page.next %}
-            <link rel="next" href="{{site.baseurl}}{{page.next.url}}" />
+        <!-- reversed_postsが存在する場合、最初の投稿（最新の投稿）へのリンクを設定 -->
+        {% if reversed_posts %}
+            <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
         {% endif %}
     </head>
     <body>
         <div class="book">
+
+            <!-- toc-date.htmlをインクルードして、ページの目次を挿入する -->
             {%- include toc-date.html -%}
 
-            <!-- ここにhome.htmlのヘッダー部分を追加 -->
-            <div class="book-header" role="navigation">
-                <h1>
-                    <i class="fa fa-circle-o-notch fa-spin"></i>
-                    {% if page.title %}
-                        <a href="." >{{ page.title | escape }}</a>
-                    {% else %}
-                        <a href="." >{{ site.title | escape }}</a>
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- ページのタイトルを表示 -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        <!-- ページにtitleが設定されている場合、そのタイトルを表示 -->
+                        {% if page.title %}
+                            <a href="." >{{ page.title | escape }}</a>
+                        <!-- そうでない場合、サイト全体のタイトルを表示 -->
+                        {% else %}
+                            <a href="." >{{ site.title | escape }}</a>
+                        {% endif %}
+                    </h1>
+                </div>
+
+                <div class="body-inner">
+                    <!-- body.htmlをインクルードして、ページの主要なコンテンツを挿入する -->
+                    {%- include body.html -%}
+
+                    <!-- サイトのホームページへのリンクを設定 -->
+                    <a href="{{site.baseurl}}/" class="navigation navigation-pre navigation-unique">
+                        <i class="fa"></i>
+                    </a>
+
+                    <!-- reversed_postsが存在する場合、最初の投稿（最新の投稿）へのナビゲーションリンクを設定 -->
+                    {% if reversed_posts %}
+                        <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
                     {% endif %}
-                </h1>
+                </div>
             </div>
 
-            <div class="body-inner">
-                {%- include body.html -%}
-
-                {% if page.previous %}
-                    <a href="{{site.baseurl}}{{page.previous.url}}" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{page.previous.title}}">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                {% else %}
-                    <a href="{{site.baseurl}}/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: {{site.title}}">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                {% endif %}
-
-                {% if page.next %}
-                    <a href="{{site.baseurl}}{{page.next.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{page.next.title}}">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                {% endif %}
-            </div>
+            <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+            });
+            </script>
         </div>
 
-        <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
-        });
-        </script>
-
+        <!-- footer.htmlをインクルードして、ページのフッターを挿入する -->
         {%- include footer.html -%}
+
     </body>
 </html>
