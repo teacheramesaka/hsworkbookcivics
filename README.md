@@ -28,7 +28,8 @@ permalink: /
   <button class="collapsible-button">＋　更新履歴を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
-- 令和六年八月十二日：問題の解説を折り畳むように変更
+- 令和六年八月十三日：「令和五年度　大学入学共通テスト本試験　政治・経済」の全問題文をアップロード  
+- 令和六年八月十二日：問題の解説を折り畳むように変更  
 - 令和六年八月十一日：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問題文と解説をアップロード  
     {% endcapture %}
     {{ markdown_content | markdownify }}
