@@ -1214,12 +1214,6 @@ f　下降
   
 [＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃フローとストック]({{ site.baseurl }}/tag/eco01_09)　＃良問  
   
-  
-    {% endcapture %}
-    {{ markdown_content | markdownify }}
-  </div>
-</div>
-  
 ### 問４解説  
 <div class="collapsible">
   <button class="collapsible-button">＋　クリック・タップで解説を表示</button>

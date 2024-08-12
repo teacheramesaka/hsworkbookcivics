@@ -1,0 +1,82 @@
+/* サイドバーのスタイル */
+.book-summary ul.summary ul {
+    display: none; /* 初期状態では折りたたむ */
+}
+
+.book-summary ul.summary .chapter.active > ul {
+    display: block; /* アクティブな項目を展開 */
+}
+
+.book-summary ul.summary .chapter .toggle {
+    cursor: pointer;
+}
+
+.book-summary ul.summary .chapter .toggle::before {
+    content: "▶"; /* 折りたたまれた状態のアイコン */
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.book-summary ul.summary .chapter.active .toggle::before {
+    content: "▼"; /* 展開された状態のアイコン */
+}
+
+.chapter ul {
+    display: none;
+}
+
+.chapter.active > ul {
+    display: block;
+}
+
+.toggle::before {
+    content: "\25B6"; /* 右向き矢印 */
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.chapter.active > .toggle::before {
+    content: "\25BC"; /* 下向き矢印 */
+}
+
+/* 初めて訪れたユーザーに対して全て折りたたみ */
+.chapter {
+    display: none;
+}
+
+.chapter.active {
+    display: list-item;
+}
+
+/* 折り畳み文書の作成 */
+.collapsible-content {
+    display: none; /* デフォルトで非表示 */
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+  .collapsible-button {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .collapsible-button:after {
+    content: '\002B'; /* "+" */
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .collapsible-button.active:after {
+    content: "\2212"; /* "-" */
+  }

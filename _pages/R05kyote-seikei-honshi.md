@@ -37,12 +37,14 @@ show_title: false
 <div class="collapsible">
   <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
+    {% capture markdown_content %}
 [復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)  
 [復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)  
     {% endcapture %}
     {{ markdown_content | markdownify }}
   </div>
 </div>
+
 
 ### 問２
 東アジア諸国に関連して、生徒Xは、日本、韓国、中国の経済発展に関心をもち、これら3か国の2000年、2010年および2020年の実質GDP成長率、一人当たり実質GDP、一般政府総債務残高の対GDP比を調べ、次の表にまとめた。表中のA～C国はこれら3か国のいずれかである。後の記述ア～ウは、これら3か国についてそれぞれ説明したものである。A～C国と記述ア～ウの組合せとして最も適当なものを、後の①～⑥のうちから一つ選べ。  
@@ -63,6 +65,7 @@ show_title: false
 <div class="collapsible">
   <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
+  {% capture markdown_content %}
 正解：⑥  
 [復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
 [復習用資料：経済分野第四章／高度経済成長期](https://teacheramesaka.github.io/highschooleconomics/04_03.html)  
@@ -73,3 +76,4 @@ show_title: false
     {{ markdown_content | markdownify }}
   </div>
 </div>
+
