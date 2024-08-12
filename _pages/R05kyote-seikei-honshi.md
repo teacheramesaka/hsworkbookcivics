@@ -54,8 +54,8 @@ show_title: false
   
 ### 問２解説  
 正解：⑥  
-[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)
-[復習用資料：経済分野第四章／高度経済成長期](https://teacheramesaka.github.io/highschooleconomics/04_03.html)
+[復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
+[復習用資料：経済分野第四章／高度経済成長期](https://teacheramesaka.github.io/highschooleconomics/04_03.html)  
   
 ・国際経済テーマ史の中でも、「2010年以降の国際経済」を聞いてきている  
 ・また、日本経済通史の中でも、「高度経済成長期」を聞いてきている問題である  
