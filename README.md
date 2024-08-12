@@ -11,24 +11,26 @@ permalink: /
 ※本サイトは試験運用中です。問題数もまだまだ少なく、タグだけあって問題はない、みたいな事も普通にあります。詳細は以下を参照してください  
 
 <div class="collapsible">
-  <button class="collapsible-button">＋　試験運用による注意点</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
-    <p>
-    ・既知のバグとして、一部ページに於いて、サイドバーの動作がおかしいです<br>
-    ・解説がある問題とない問題があります。以下は、解説がある問題です<br>
-    １：「令和六年度　大学入学共通テスト本試験　政治・経済」の全問<br>
-    ２：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問<br>
-    ３：「令和七年度　大学入学共通テスト試作問題　公共、政治・経済」の全問<br>
-    </p>
+    {% capture markdown_content %}
+    ・既知のバグとして、一部ページに於いて、サイドバーの動作がおかしいです  
+    ・解説がある問題とない問題があります。以下は、解説がある問題です  
+    １：「令和六年度　大学入学共通テスト本試験　政治・経済」の全問  
+    ２：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問  
+    ３：「令和七年度　大学入学共通テスト試作問題　公共、政治・経済」の全問  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
   </div>
 </div>
 
 <div class="collapsible">
-  <button class="collapsible-button">＋　主な更新履歴</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
-    <p>
-    令和六年八月十一日：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問題文と解説をアップロード<br>
-    </p>
+    {% capture markdown_content %}
+    令和六年八月十一日：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問題文と解説をアップロード  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
   </div>
 </div>
 

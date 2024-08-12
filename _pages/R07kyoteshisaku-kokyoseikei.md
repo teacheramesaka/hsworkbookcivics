@@ -36,6 +36,10 @@ Y３：例えば、行為の善さは行為の結果にあるのではなく、�
 [＃倫理分野]({{ site.baseurl }}/tag/ethics)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)  
   
@@ -56,6 +60,10 @@ Y３：例えば、行為の善さは行為の結果にあるのではなく、�
   
 ・また、Y3の言っている話（目的が大事だ）と、エの話（誰もが自己を目的とする）は類似性がある  
 ・よって、国語力で突破しようと思えばできなくはない問題ではある。まぁかなり厳しいだろうが…  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 　ある鉄道会社で就業体験活動をした生徒Xは、その資料室で見ることができた1970年代の写真と現在の様子を比べ、多様性の尊重として、ア〜エに示す改善・工夫が行われてきたことに気付いた。それらは、法令の施行や改定とも関連があると思われた。  
@@ -77,6 +85,10 @@ C　男女雇用機会均等法
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
   
 ・法律の知識がなくとも、国語力で充分解けてしまう問題  
@@ -87,6 +99,10 @@ C　男女雇用機会均等法
 ・障害者差別解消法も、名前だけでも性質を察する事ができる  
 ・即ち「障害者を差別するのはやめましょう、障害者でも平等に生きられるようにしましょう」法である  
 ・例えば車椅子の人が階段を登るのはかなり厳しいが、エレベーターがあれば容易に上下移動できる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 「人間はそれぞれの地域に固有の文化や伝統の中に生まれ落ち、その文化や伝統を糧にして育つ」ということに関して、生徒Xと生徒Yの学校では課外活動で地元の自治体に協力し、桃の節句、菖蒲（しょうぶ）の節句に合わせてSDGsに関するイベントを企画することになった。次のイベント企画案は、市役所のエントランスホールなどの施設を利用して、一回につき二つの目標を取り上げるものである。イベント企画案中の（　ア　）・（　イ　）に当てはまる目標の組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -99,6 +115,10 @@ C　男女雇用機会均等法
   
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
   
 ・完全に国語の問題  
@@ -113,6 +133,10 @@ C　男女雇用機会均等法
 ・となると、こちらのイベントでは健康関係の何かもやっていそう  
   
 ・というところから、アが「働きがいも経済成長も」、イが「すべての人に健康と福祉を」だと思われる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 各種の法に関して、生徒Ｘと生徒Ｙは日本における民法の変遷について調べてまとめた。このうち、現行の民法の内容に関する記述として正しいものを次のア～ウからすべて選んだとき、その組合せとして最も適当なものを、後の①～⑧のうちから一つ選べ。  
@@ -127,6 +151,10 @@ C　男女雇用機会均等法
 [＃消費者問題]({{ site.baseurl }}/tag/eco02_04/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解:②  
 [消費者問題](https://teacheramesaka.github.io/highschooleconomics/02_04.html)  
   
@@ -138,7 +166,10 @@ C　男女雇用機会均等法
 ・ウは、現行の民法ではそもそも公序良俗に反する契約は認められていない  
 ・…いないが、「後になっても取り消せない」とか明らかに怪しすぎるでしょこれ…  
 ※多分問題作ってる方も、「現行民法では、公序良俗に反する契約は認められていない」という知識を受験生が持っている事を期待せずに作っている問題だと思われる  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第２問  
   
@@ -158,6 +189,10 @@ C　男女雇用機会均等法
 [＃倫理分野]({{ site.baseurl }}/tag/ethics)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：倫理分野](https://teacheramesaka.github.io/highschoolethics/)  
   
@@ -180,6 +215,10 @@ C　男女雇用機会均等法
 >一般的に給与などは、各人の能力や功績に比例して決められる、すなわちアリストテレスが言う（　Ａ　）的正義に基づいている  
   
 ・となると、配分的正義が合致する  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 　生徒Ｘたちは、日本とヨーロッパのOECD加盟国について、次の図1・図2を示しながら「日本は出産・子育て支援策として、保育サービスなどの『現物給付』の充実を図る必要がある。」という提案を行うことにし、事前に他のグループに説明したところ、後のア～エのような意見が他の生徒からあった。  
@@ -198,6 +237,10 @@ C　男女雇用機会均等法
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
   
 ・何も知識がなくても国語文と図表が読めれば解けてしまう問題  
@@ -217,7 +260,10 @@ C　男女雇用機会均等法
 ・エ「「現物給付」対GDP比と合計特殊出生率との因果関係は示されていない」とある  
 ・つまり、つまり図２の左下から右上へ引いた直線の近辺に点が散らばっていない、という話だが…  
 ・その通りである  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 　生徒Ｘたちは、高齢化の進行と、少子化による人口減少が進むと、社会保障の面で問題が生じるのではないかと考えた。このことを中間発表で説明したところ、｢今後の日本には、どのような社会保障のあり方が望ましいと考えますか。諸外国の給付規模などとの比較を踏まえて、教えてください。」という質問が他の生徒からあった。  
@@ -248,6 +294,10 @@ C　男女雇用機会均等法
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 A：日本国  
@@ -280,7 +330,10 @@ D：イギリス
 ・問題は(E)だが、日本は高齢化が急速に進行し、図表中で最も高齢化が進んだ国になっている  
 ・なので「高齢化率を大幅に抑制し続ける」も何もない（抑制し続けたくても最初から抑制できていない）  
 ・となると④は間違っていると考えられ、③が正解となる  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 生徒Ｘたちは、最終発表に向け、人口減少及び高齢化が進行する自らの地域において、高齢者がよりよい生活を送るためにはどのような施策が考えられるかということについて話し合った。次の会話文中の（　A　）～（　C　）に当てはまる文の組合せとして最も適当なものを、後の①～⑧のうちから一つ選べ。  
@@ -311,6 +364,10 @@ D：イギリス
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
   
 　完全に国語の問題。社会科の知識とか特に関係はない。  
@@ -319,6 +376,10 @@ D：イギリス
 　また、（　B　）の選択肢は、（　A　）で「企業にやらせる」を選んだか、「行政主体でやる」を選んだかで変動するような内容である。また、（　C　）の選択肢を見ると、どちらの選択肢も「企業にやらせる」話が行われている事を前提にした内容になっている。こう考えると、（　A　）の時点で「企業にやらせる」選択肢を選んでいなければならない。  
 　このように考えてくると、（　A　）はアの「企業にやらせる」が正解と考えられる。また、（　B　）は、エの企業関係の選択肢が正解だと考えられる。  
 　最後の（　Ｃ　）だが、どちらの選択肢も「企業にやらせる」としてどのように公正さを確保するかについて語っている。そして会話文を読む限り、「利用者（高齢者）が酷い目に遭わない」という意味での公正さの話が行われている。よって、そのような意図での公正さについて語っているカが正解になる。  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第３問  
   
@@ -340,6 +401,10 @@ D：イギリス
 [＃労働問題]({{ site.baseurl }}/tag/eco02_01/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [労働問題](https://teacheramesaka.github.io/highschooleconomics/02_01.html)
   
@@ -352,6 +417,10 @@ D：イギリス
 ・なお、④の男女雇用機会均等法は、「職場における男女差別の解消に努め」る法律ではない  
 ・むしろ、「職場における男女差別」を禁じる法律である  
 ⇒常識的に考えても、男女差別が残存している事実に対して「差別解消に努めているんですが、なかなかうまくいかなくて…」とか言っても大体は許されないのが今の世の中である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 「日本が批准していない条約もある」という事実について生徒Ｙは、人権条約と現在の日本の批准状況について調べ、次の表1を作成した。表1中の空欄（　ア　）～（　ウ　）に当てはまる語句の組合せとして最も適当なものを、後の①～④のうちから一つ選べ。  
@@ -374,6 +443,10 @@ D：イギリス
 [＃人権の拡大]({{ site.baseurl }}/tag/pol01_05/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [人権の拡大](https://teacheramesaka.github.io/highschoolpolitics/01_05.html)
   
@@ -388,6 +461,10 @@ D：イギリス
   
 ・上記が分かっていれば、基本的には③を導ける  
 ・日本国が人種差別撤廃条約と障害者権利条約に参加しているという事も知っていれば、より完璧である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 一票の格差について、生徒Ｘは、1980年以降の衆議院議員総選挙における最大格差を調べ、その結果をまとめた次の表を作成した。表で示されている内容に関する記述として最も適当なものを、後の①～④のうちから一つ選べ。  
@@ -409,6 +486,10 @@ D：イギリス
 [＃現代日本の政党政治]({{ site.baseurl }}/tag/pol03_06/)　[＃選挙制度]({{ site.baseurl }}/tag/pol03_05/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：政治分野第三章／選挙制度](https://teacheramesaka.github.io/highschoolpolitics/03_05.html)  
 [復習用資料：政治分野第三章／現代日本の政党政治](https://teacheramesaka.github.io/highschoolpolitics/03_06.html)  
@@ -428,6 +509,10 @@ D：イギリス
 ⇒即ち、「あー、細川内閣は1993年の選挙で成立してるから、その次の選挙から小選挙区比例代表並立制に切り替わったんだな」となり、表を読み取って正答を導く事ができる  
   
 ・とは言え、そこまでできる高校生は多くないと思われ、難問と言えるだろう  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 拒否権について、生徒Ｙは、東西冷戦の対立構図の下、国際連合（国連）の安全保障理事会が、常任理事国の拒否権の頻繁な発動により十分な役割を果たせなかったことに関心をもった。そこでＹは、常任理事国が拒否権を行使した回数を調べて次の表を作成し、その背景にあるできごとについて推察した。表から推察できる内容の記述として最も適当なものを、後の①～④のうちから一つ選べ。  
@@ -451,6 +536,10 @@ D：イギリス
 [＃戦後国際政治史―ColdWar]({{ site.baseurl }}/tag/pol04_02/)　[＃国際連合]({{ site.baseurl }}/tag/pol04_06/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：政治分野第四章／戦後国際政治史―ColdWar](https://teacheramesaka.github.io/highschoolpolitics/04_02.html)  
 [復習用資料：政治分野第四章／国際連合](https://teacheramesaka.github.io/highschoolpolitics/04_06.html)  
@@ -464,7 +553,10 @@ D：イギリス
   
 ・…という事が分かっていれば、①が正解だという事が分かる  
 ※②～④の選択肢については、問題作成者の方でも「どこがどう間違っているという事を、受験生が知っている」とは想定していないと思われる  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 最高裁判所の仕組みに関心をもった生徒Ｘは、裁判所法を調べ、最高裁判所の違憲審査権の行使に関する部分について次のメモを作成した。なお、メモには、表記を改めた箇所やふりがなを振った箇所がある。メモから読み取れる、最高裁判所における裁判に関する記述として最も適当なものを、後の①～④のうちから一つ選べ。  
@@ -484,6 +576,10 @@ D：イギリス
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
   
 ・ザ・論理国語で出せ案件  
@@ -508,7 +604,10 @@ D：イギリス
 ④「最高裁の以前の見解と同じ合憲判決は、大法廷でやった駄目」←メモの何処にもそんな話は無い  
   
 ・…という形で②が正解だと分かる  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 生徒Ｙは、あらためて日本国憲法の前文を読み返してみた。次の資料は、日本国憲法の前文の一部である。なお、一部現代仮名遣いに改めた箇所やふりがなを振った箇所がある。会話文中の空欄（ア）に当てはまる記述として最も適当なものを、資料中の下線部①～④のうちから一つ選べ。  
@@ -523,6 +622,10 @@ D：イギリス
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
   
 ・国語の問題。一応、人間の安全保障という公民科で出てくる概念について聞いてはいるのだが…  
@@ -535,8 +638,10 @@ D：イギリス
 ・上記の要約から考えると、②以外に適する選択肢がない  
 ・①はそれっぽいとは言え、「われらの安全と生存」の話であって、「世界中の人々」の話ではない  
 ・③と④も、国単位でどうこうという話をしていて、不適である  
-  
-  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第４問  
   
@@ -555,6 +660,10 @@ D：イギリス
 [＃日本経済通史]({{ site.baseurl }}/tag/pol01_01-5/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html) 
 [復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)  
@@ -587,6 +696,10 @@ D：イギリス
 ・結果として、答えは以下のようになる  
   
 イ（1970年代）　⇒　ア（1990年代）　⇒　ウ（2010年代）  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 日本と他国の雇用慣行に関するデータについて、生徒Ｙは、日本、イギリス、スウェーデン、ドイツの4か国の雇用慣行を比較して考えてみた。次の表は、これら4か国の雇用慣行を数値で表したものであり、表中のＡ～Ｄは、それぞれ、これら4か国のいずれかを示している。なお、表中の(ア)は勤続年数1～5年の賃金を100としたときに賃金が勤続年数に応じてどのぐらい変化するかを、(イ)は年齢階層別の平均勤続年数を、(ウ)は数値が大きくなるほど賃金交渉を主導する主体が企業別組合から産業別組合へ移ることを意味する「賃金交渉の集権度」を、それぞれ表している。表と後の説明文1～3とを参考にして、Ａ～Ｄが示す国の組合せとして最も適当なものを、後の①～⑧のうちから一つ選べ。  
@@ -612,6 +725,10 @@ D：イギリス
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  [＃労働問題]({{ site.baseurl }}/tag/eco02_01/)
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [労働問題](https://teacheramesaka.github.io/highschooleconomics/02_01.html)
 
@@ -656,6 +773,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・これは、選択肢①に合致する推論である  
   
 ・よって、やはり正解は①となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 生徒Ｚは、年金について調べてみた。年金の仕組みに関する記述として最も適当なものを、次の①～④のうちから一つ選べ。  
@@ -668,6 +789,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃社会保障]({{ site.baseurl }}/tag/eco02_02/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)
 
@@ -677,6 +802,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・この問題の場合は、②が明らかに正解、③が明らかに間違い（積立方式で問題が出るのはインフレ時）  
 ・一方①と④については、公共や政治経済の授業では扱わない範囲である  
 ・よって、「②が正解でしょ、他の選択肢は知らんけど」で決断的に②を選べば正解となる問題である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 資本主義経済に関連して、生徒Ｘは、さまざまな経済学説について調べ、そのうちの二つの考え方を現代的な論点と対応させる次のメモ1・2を作成した。それぞれのメモ中の空欄（　ア　）・（　イ　）に当てはまる人名の組合せとして正しいものを、後の①～④のうちから一つ選べ。  
@@ -692,6 +821,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃資本主義]({{ site.baseurl }}/tag/eco01_01/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)
 
@@ -722,6 +855,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・よって（イ）はデイビッド・リカードである  
   
 ・以上から、（ア）はフリードマン、（イ）はリカードである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 現在の雇用に関する記述として誤っているものを、次の①～④のうちから一つ選べ。  
@@ -734,6 +871,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃労働問題]({{ site.baseurl }}/tag/eco02_01/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [労働問題](https://teacheramesaka.github.io/highschooleconomics/02_01.html)  
   
@@ -746,6 +887,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・他の選択肢はと言うと、一応②は公共や政治経済の授業で扱う  
 ・ただ①、③の知識は、正直授業や教科書で扱うような内容ではない（細かすぎる）  
 ・よって、「④が正解でしょ、他の選択肢は知らんけど」で決断的に④を選べば正解となる問題である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 新技術の導入もまた、従来型の雇用慣行とは別のメカニズムで、賃金や雇用に影響を与えるという事実について、生徒Ｘ、生徒Ｙ、生徒Ｚは、需要と供給によって価格と取引量が決まるという財市場のメカニズムを労働市場にも適用し、技術進歩が均衡賃金に与える効果を考え、次の図と、図を説明した後のメモとを作成した。メモ中の空欄（　ア　）～（　ウ　）に当てはまる語句と記号の組合せとして正しいものを、後の①～④のうちから一つ選べ。  
@@ -763,6 +908,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃需要供給曲線]({{ site.baseurl }}/tag/eco01_05/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：経済分野第一章／需要供給曲線](https://teacheramesaka.github.io/highschooleconomics/01_05.html)  
   
@@ -804,6 +953,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ア：労働需要曲線  
 イ：A  
 ウ：低下  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第５問  
   
@@ -820,6 +973,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃日本経済通史]({{ site.baseurl }}/tag/pol01_01-5/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html)  
 [復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)  
@@ -843,6 +1000,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ・④は正文である  
 ⇒なお、この持株会社は元々独占禁止法で禁じられていた事、及び金融ビッグバンの目玉として解禁された事を覚えておきたい。もっと言えば、金融ビッグバンを大々的に進めたのが橋本内閣である事も知っておきたい  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 　生徒Ｗが、「近年では情報技術がどんどん発達しているし、それが日本経済を大きく変化させていそうだよね。」と発言すると、先生Ｔは、「そのとおりですね。しかし経済の中にはさまざまな産業があり、情報化の影響の表れ方は産業によってかなり差があると思いますよ。データを調べてみてはどうですか。」とアドバイスした。それを受けてＷ、生徒Ｘ、生徒Ｙ、生徒Ｚの4人のグループは、近年における産業ごとの変化を示すデータを集め、それをもとに考察と議論を行った。  
@@ -864,6 +1025,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 ・会話文を見ると、一人当たり労働生産性の出し方を話している  
 ・即ち、「その産業が稼いでいる額÷その産業で働いている人数」と言っている  
@@ -889,6 +1054,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ⇒実際のところ、共通テストは時間が足りなくなる試験なので、馬鹿正直に計算するよりもパーセンテージだけ見て解いて時短した方がいい  
 ⇒そういう意味では考える力を問う問題としてよく考えられている、とも言える問題である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 情報技術について議論していく中で、日本において各種のインターネット端末を利用している人の割合を年齢階層別にまとめた次の資料をみつけた生徒Ｙは、生徒Ｗ、生徒Ｘ、生徒Ｚと発表に向けたグループ学習の進め方を話し合った。後の会話文中の空欄（　ア　）に当てはまる記述として最も適当なものを、後の①～④のうちから一つ選べ。  
@@ -908,6 +1077,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 
 ・単純に図表と選択肢を睨めっこしていれば解ける国語の問題  
@@ -933,6 +1106,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ・図表一番左の6～12歳からして、タブレット型端末利用者の方がパソコン利用者より多い  
 ・よって誤文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 インターネットに関わる問題について調べたことをきっかけに、生徒Ｗ、生徒Ｘ、生徒Ｙ、生徒Ｚは、さらに議論を重ねていった。インターネットをめぐる日本の今日の状況について述べた次のア～エの記述のうち、内容が誤っているものが二つある。その組合せとして最も適当なものを、後の①～⑥のうちから一つ選べ。  
@@ -952,6 +1129,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [時事問題]({{ site.baseurl }}/tag/zeitproblem/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・珍しく、誤答を二つ選ぶ問題  
@@ -965,6 +1146,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・エの制度とは即ちクーリングオフだが、通信販売は対象外である  
 ⇒通信販売そのものは特定商取引法の対象となるが、通信販売はクーリングオフ対象にはならない  
 ⇒実際、Amazonや楽天を利用した事のある高校生も多い筈だが、クーリングオフ制度について見た事はない筈である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 生徒Ｋ、生徒Ｌ、生徒Ｍのグループでは、インターネットをめぐる今日の問題として、インターネット上に誹謗中傷やフェイクニュースなどの違法・有害情報が氾濫しているという状況についての対策を議論している。次の会話文中の空欄（　ア　）～（　ウ　）には、それぞれ後のａ～ｃの記述のいずれかが当てはまる。当てはまる記述の組合せとして最も適当なものを、後の①～⑥のうちから一つ選べ。  
@@ -991,6 +1176,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
   
 >インターネット上に誹謗中傷やフェイクニュースなどの違法・有害情報が氾濫している  
@@ -1011,6 +1200,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・残るは（ウ）とbであり、こちらも適合する内容になっている  
   
 ・よって、正解は「ア―ｃ　イ―ａ　ウ―ｂ」となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 探究する学習のまとめの発表会で、「インターネット時代の世論」というテーマで調査を行った生徒Ｎたちのグループが、次の発表原稿に基づいて報告を行った。この報告に対して、報告を聴いていた生徒たちから、報告の内容を確認する後のア～ウの発言があった。ア～ウのうち、Ｎたちのグループの報告の内容に合致する発言として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①～⑦のうちから一つ選べ。  
@@ -1034,6 +1227,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
   
 >人間は、自分に都合の良い情報にばかり目を向けてしまい、都合の悪い情報は無意識のうちに無視したり、または、意識的に避けてしまったりという心理的な傾向をもつといわれます。  
@@ -1047,6 +1244,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・アは、発表原稿で言うとエコーチェンバーあたりの話の事。発表原稿内にある話なので正文  
 ・イは、発表原稿にそれらしい話がない。よって誤文  
 ・ウは、発表原稿で言うと最後のあたり。発表原稿内にある話なので正文  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第６問  
   
@@ -1087,6 +1288,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃日本経済通史]({{ site.baseurl }}/tag/pol01_01-5/)
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：経済分野第一章／社会主義](https://teacheramesaka.github.io/highschooleconomics/01_02.html)  
 [復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
@@ -1126,6 +1331,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・ソ連の支配から解放されたのに、計画経済をやろうとするのは明らかに異常と申し上げるより他ない  
   
 ・よって、「f市場経済」が正解である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 （第６問リード文）  
@@ -1151,6 +1360,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・図表を読み取らせる問題の割に、図表を読み取る意味があんまりない問題  
@@ -1194,6 +1407,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・よってウは誤文である  
   
 ・以上から、ウのみが誤文。正解は③  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 生徒Ｘは、調べ学習を進める中で、イギリスではポーランドなど東ヨーロッパ諸国から移民労働者を多く受け入れていたことを知った。他方で、Ｘは、先生Ｔが以前の授業で、EU離脱の是非を問うたイギリス2016年国民投票で移民問題が関わっていたと、関連する世論調査データも使いつつ話していたことを思い出した。次の資料4は、その授業での配布資料である。資料4中の空欄（　ア　）・（　イ　）に当てはまる記述として正しいものを、後の①〜④のうちから、それぞれ一つ選べ。  
@@ -1209,6 +1426,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国際経済テーマ史]({{ site.baseurl }}/tag/eco03_02/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：アが①、イが②  
 [復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
   
@@ -1238,6 +1459,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ・勿論他にも解き方は色々ある  
 ⇒それこそ私の授業をきちんと受け、授業用資料を読み込んでいる人であれば、②が離脱支持理由である事は一発で見抜ける  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 ヨーロッパの難民問題を調べていた生徒Ｙは、シリア難民が、ギリシャ、オーストリア、ドイツをめざしたという先生Ｔの説明を思い出した。そこで、シリアを離れこれら3か国に到着し保護を求めた「庇護申請者」の合計の推移を調べ、次の資料5を作成した。後のア〜ウの記述のうち、資料5から推察できる内容として適当なものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1256,6 +1481,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃現代国際政治史―ModernWarfare]({{ site.baseurl }}/tag/pol04_03/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：政治分野第四章／現代国際政治史―ModernWarfare](https://teacheramesaka.github.io/highschoolpolitics/04_03.html)  
   
@@ -1306,6 +1535,10 @@ D国：勤続年数と賃金に相関関係が全くない
 ・バンドン会議ならともかく、パグウォッシュ会議まで来るとそれは世界史ではないのか…？  
 ・そういう意味でもおかしいと言うか、疑問が残る問題とも言える  
 ※私大受験の本番で世界史の知識が問われる事は勿論よくある。が、これ共テの問題なので…  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 生徒Ｘと生徒Ｙは、主な先進国の難民認定率と難民認定者数を示す次の資料6をみつけ、その内容について話し合っている。後の会話文中の空欄（　ア　）には後の国名ａかｂ、空欄（　イ　）には後の語句ｃかｄ、空欄（　ウ　）には後の記述ｅかｆのいずれかが当てはまる。当てはまるものの組合せとして最も適当なものを、後の①～⑧のうちから一つ選べ。  
@@ -1342,6 +1575,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [時事問題]({{ site.baseurl }}/tag/zeitproblem/)　[＃人権の拡大]({{ site.baseurl }}/tag/pol01_05/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑧  
 [復習用資料：政治分野第一章／人権の拡大](https://teacheramesaka.github.io/highschoolpolitics/01_05.html)  
   
@@ -1366,6 +1603,10 @@ D国：勤続年数と賃金に相関関係が全くない
   
 ・ノン・ルフールマンの原則の意味を覚えていれば解ける部分  
 ・また、eのような経済難民は、難民条約の言う「難民」ではないという知識も持っておきたい  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 これまでの学習の成果を踏まえて、生徒Ｚは、生徒Ｘ、生徒Ｙとともに、日本での移民・難民の期限を定めない受入れについて授業で討論した。この討論は異なる視点から3人が意見を出し合い、それぞれの意見を組み合わせて一つの政策的な含意をもつ提言を導くことがねらいであった。討論を通じて、まとめられたＸたちによる次のア～ウの提言を読み、後の(1)、(2)の問いに答えよ。  
@@ -1394,6 +1635,10 @@ D国：勤続年数と賃金に相関関係が全くない
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解は以下の三種  
 (1)が①　⇒　(2)は③  
 (1)が②　⇒　(2)は①  
@@ -1446,3 +1691,7 @@ c：（難民・移民受け入れ反対とか言うと悪人扱いされるな�
 ・この消極性は、cに特徴的である  
   
 ・よって、ウはaとcの意見によって構成されていると考えられる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>

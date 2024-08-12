@@ -23,6 +23,10 @@ show_title: false
 [＃時事問題]({{ site.baseurl }}/tag/zeitproblem)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・十八歳成人になってから毎年のように出ている成人関係の問題  
@@ -32,7 +36,10 @@ show_title: false
 ※その結果、一般的な刑務所ではなく少年刑務所に行くという形になったとしても、少なくとも刑事罰の対象にはなっているのも知っている筈である  
   
 ・上記の事さえ分かっていれば解ける問題である  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 選挙に関心をもった生徒Xは、選挙制度が選挙結果に与える影響についてモデルケースで考え、次のメモを作成した。メモ中の空欄（　ア　）〜（　ウ　）に当てはまる語句の組合せとして正しいものを、後の①〜⑧のうちから一つ選べ。  
@@ -64,6 +71,10 @@ show_title: false
 [＃選挙制度]({{ site.baseurl }}/tag/pol03_05)　[＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃計算問題]({{ site.baseurl }}/tag/berechnung)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：政治分野第三章／選挙制度](https://teacheramesaka.github.io/highschoolpolitics/03_05.html)  
 
@@ -98,6 +109,10 @@ show_title: false
 ・よって（　イ　）は「増加」である  
   
 ・以上の内容から、模範回答は②となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 住民参加に関連して、生徒Xと生徒Yは、講座の内容を振り返りながら、現在の日本の地方公共団体において住民が政治に参加する仕組みについて話し合っている。次の会話文中の空欄（　ア　）〜（　ウ　）に当てはまる語句の組合せとして正しいものを、後の①〜⑧のうちから一つ選べ。  
@@ -121,6 +136,10 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
 [＃地方自治]({{ site.baseurl }}/tag/pol03_07)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑦  
 [復習用資料：政治分野第三章／地方自治](https://teacheramesaka.github.io/highschoolpolitics/03_07.html)  
   
@@ -132,6 +151,10 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
 １：必要署名数は、住民解職なら原則三分の一、それ以外なら五十分の一  
 ２：条例の制定、改廃の請求先は、議会を招集する人。つまり首長  
 ３：住民解職の請求先は、選挙で選ばれるモノについては選挙管理委員会、そうでない職は首長  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 裁判員に関心をもった生徒Xは、講座後に図書館で関連する書籍などを参照して、諸国の刑事裁判への市民参加の制度についてまとめ、次のメモを作成した。メモ中の空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして正しいものを、後の①〜⑧のうちから一つ選べ。
@@ -153,6 +176,10 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
 [＃司法府（裁判所）]({{ site.baseurl }}/tag/pol03_04)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：政治分野第三章／司法府（裁判所）](https://teacheramesaka.github.io/highschoolpolitics/03_04.html)  
   
@@ -162,6 +189,10 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
 １：参審制は、有罪か無罪かの判断、量刑の判断共に【民間人と裁判官】が共同で行う  
 ２：司法制度改革で現代日本へ導入されたのは、【参審制】である  
 ３：【地方】裁判所の、重大な【刑事】事件の時のみ、裁判員制度が適用される  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 生徒Xと生徒Yは、職業選択に関心をもち、雇用や失業などの労働市場に関する情報を集めた。XとYは、次の資料1〜3をみながら話し合っている。後の会話文中の空欄（　ア　）〜（　ウ　）に当てはまる語句の組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -186,6 +217,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・多少、経済分野の背景知識が必要だが、基本的には国語の問題  
@@ -266,6 +301,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ・これが正しい文章となる  
 ・よって、全ての条件を満たす「③　ア　上回って　　イ　不足して　　ウ　フルタイム」が正解となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 家計に関心をもった生徒Yは、講座で配布された次の資料を見返し、分析した結果を後のノートにまとめた。ノート中の空欄（　ア　）には資料中の例aか例bのいずれかが当てはまる。ノート中の空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -292,6 +331,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 [＃貧富の格差を表す指標]({{ site.baseurl }}/tag/eco01_14)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：経済分野第一章／貧富の格差を表す指標：](https://teacheramesaka.github.io/highschooleconomics/01_14.html)  
   
@@ -359,6 +402,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ・例cは消費支出全体が100、食費が30であるから30%と分かる  
 ・よってイは30%であり、②が正解となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問７  
 生徒Yは、社会の変化によって生活困難に遭遇するリスクが高まる中での社会保障の意義に関心をもち、その意義を具体化する仕組みについて調べた。次の記述ア〜ウのうち、日本における社会保険制度、公的扶助制度、社会福祉制度それぞれの基本的な特徴に関する記述として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -380,6 +427,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 [＃社会保障]({{ site.baseurl }}/tag/eco02_02)  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)  
   
@@ -397,6 +448,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 ⇒公的扶助は、「貧乏で困っている人を助けよう」制度である。貧乏で困っている人が、皆が皆、普段から保険料をちゃんと支払ってる…なんて事はないのである。だから公的扶助制度は、公費で行われないと意味がない  
   
 ・よってアとウのみが正文、答えは⑤となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問８  
 生徒Yは、日本の行政機構の変化について調べた。2000年以降における日本の行政機構の変化に関する記述として誤っているものを、次の①〜④のうちから一つ選べ。  
@@ -409,6 +464,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 [＃時事問題]({{ site.baseurl }}/tag/zeitproblem)  
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
   
 ・一種の時事問題  
@@ -420,6 +479,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 ・④は誤文  
 ⇒元々、「様々な省庁が別々に児童支援をしていたのを一本化しよう」「毒親なんていくらでもいるんだから、あくまで子供を支援する省庁を作ろう」というところから出てきたのがこども庁構想。そこに保守派の横槍が入ってこども家庭庁として実現し、「大丈夫かなぁ…」と思ってたら案の定闇の深い報道がちょいちょい流れる…というのは、報道を見ている人なら（多分）知っている  
 ⇒元の構想からして、「複数の省庁にまたがった仕事をする」内閣府に所属しているべき省庁である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第２問  
 ### 問１  
@@ -438,6 +501,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・完全に国語の問題  
@@ -470,6 +537,10 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
 ⇒本文にも「過去においては、氏族(ジッペ)を始めとする多種多様な団体が、物理的暴力をまったくノーマルな手段として認めていた」とある  
   
 ・という訳で、③が正解となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 生徒Xは、国家が運営する社会保障の仕組みに注目し、日本の雇用保険と労働者災害補償保険（労災保険）について次のメモを作成した。メモ中の空欄（　ア　）には後の記述aかb、空欄（　イ　）には後の記述cかdのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -496,6 +567,10 @@ d　事業から利益を得る事業主が負担すべきという考え方に�
 [＃社会保障]({{ site.baseurl }}/tag/eco02_02)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)  
   
@@ -528,6 +603,10 @@ d　事業から利益を得る事業主が負担すべきという考え方に�
 ⇒と言うか、実際に労災が発生した時の報告や、給付金請求なんかも全部事業主（会社）がやる。労働災害は完全に会社の責任なんだから、会社が全部やれ、という考え方である  
   
 ・よって、正解は④である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 生徒Xは、国家の運営を支える公務員が結成する団体について調べてみた。そして、Xは、日本における公務員の労働基本権に関する次の資料をみながら、生徒Yと議論している（なお、資料には表記を改めた箇所や省略した箇所がある）。資料中の空欄（　ア　）には後の語句aかbのいずれかが当てはまる。また、後の会話文中の空欄（　イ　）には後の語句cかd、空欄（　ウ　）には後の記述eかfのいずれかが当てはまる。空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -560,6 +639,10 @@ f　一般職の国家公務員は勤務条件の維持改善を目的とする�
 [＃労働問題]({{ site.baseurl }}/tag/eco02_01)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_01.html)   
   
@@ -600,6 +683,10 @@ f　一般職の国家公務員は勤務条件の維持改善を目的とする�
 ・現場で働く公務員が不当労働行為をする、というのはそもそも話が通じない  
 ・不当労働行為をするなら、公務員を雇っている政府や自治体である  
 ～まぁでも結局これだけだとイとウが解けんね～  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 国と地方公共団体との関係に関心をもった生徒Xは、両者の関係に関する日本国憲法や地方自治法の規定を調べ、次のメモを作成した。メモ中の空欄（　ア　）には後の語句aかb、空欄（　イ　）には後の記述cかdのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -623,6 +710,10 @@ d　住民に身近な行政については、まずは地方公共団体が責�
 [＃地方自治]({{ site.baseurl }}/tag/pol03_07)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：政治分野第三章／地方自治](https://teacheramesaka.github.io/highschoolpolitics/03_07.html)  
   
@@ -642,6 +733,10 @@ d　住民に身近な行政については、まずは地方公共団体が責�
 ⇒要は、「国と地方自治体の関係は、以前は上下関係だったけどこれからは対等だよ」が地方分権一括法と言える  
   
 ・以上の事から、アは団体自治でa、イはdとなる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 宗教団体に関心をもった生徒Yは、日本国憲法における宗教に関する規定について調べた。信教の自由や政教分離の原則に関する次の記述ア〜ウのうち、正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -661,6 +756,10 @@ d　住民に身近な行政については、まずは地方公共団体が責�
 [＃日本国憲法と人権（自由権）]({{ site.baseurl }}/tag/pol02_05)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：政治分野第二章／日本国憲法と人権（自由権）](https://teacheramesaka.github.io/highschoolpolitics/02_05.html)
   
@@ -693,7 +792,11 @@ d　住民に身近な行政については、まずは地方公共団体が責�
 ・正文。日本国憲法二十条３項にある通り、いかなる宗教活動も行ってはならない  
   
 ・よって、アとウが正しい。正解は⑤である  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
+  
 ### 問６  
 消費者団体に関心をもった生徒Yは、特定商取引法等にも消費者団体訴訟制度を導入した2008年の法改正について調べ、次のメモを作成した。メモ中から読みとれる内容として最も適当なものを、後の①〜④のうちから一つ選べ。  
   
@@ -717,6 +820,10 @@ d　住民に身近な行政については、まずは地方公共団体が責�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃消費者問題]({{ site.baseurl }}/tag/eco02_04)    
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第二章／消費者問題](https://teacheramesaka.github.io/highschooleconomics/02_04.html)  
   
@@ -744,6 +851,10 @@ d　住民に身近な行政については、まずは地方公共団体が責�
   
 ・正文  
 ⇒本文にも「行政機関の人員や予算などの資源（行政資源）を、より迅速な対応が求められる重大な消費者被害に集中させることが可能になるという副次的効果も期待できる」とある  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問７  
 生徒Yは、日本の会社の組織や責任について、生徒Xと議論している。次の会話文中の空欄（　ア　）には後の語句aかb、空欄（　イ　）には後の語句cかd、空欄（　ウ　）には後の記述eかfのいずれかが当てはまる。空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -777,6 +888,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
 [＃企業とは]({{ site.baseurl }}/tag/eco01_07)  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：経済分野第一章／企業とは](https://teacheramesaka.github.io/highschooleconomics/01_07.html)  
   
@@ -818,6 +933,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
 ・つまり、ウはfである  
   
 ・よって、正解はa-c-f、即ち②である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問８  
 家族という集団に関心をもった生徒Yは、日本の2009年の臓器移植法改正について調べ、脳死した者（以下、「本人」という）に家族がいる場合における制度の改正前後の内容を次のメモにまとめた。後の記述ア〜ウのうち、メモから読みとれる内容として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -847,6 +966,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
   
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
   
 ・国語の問題。本文を読んで、本文に適合する選択肢を選ぶだけの問題である  
@@ -872,6 +995,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
   
 ・誤文  
 ⇒本文やまとめた表を見ての通り、臓器を摘出できるのは「家族が拒んでいない」もしくは「家族が書面で臓器提供を承諾する」場合のみである。家族が反対していては臓器を摘出できない  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第３問  
 ### 問１  
@@ -899,6 +1026,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
 [＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃フローとストック]({{ site.baseurl }}/tag/eco01_09)　＃良問  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
 
@@ -943,6 +1074,10 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
 ※GDPは「総生産額－中間生産物」でも計算できるので、「(50+150+400)-(0+50+150)=400」でもよい  
   
 ・よって（エ）は250、GDP（オ）は400。正解は②となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 生徒Xと生徒Yは、GDP（国内総生産）について講義で学んだことを確認し合っている。次の会話文中の空欄（　ア　）には後の語句aかb、空欄（　イ　）には後の語句cかd、空欄（　ウ　）には後の記述eかfのいずれかが当てはまる。空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -973,6 +1108,10 @@ f　どの面からみた総額もすべて等しい
 [＃フローとストック]({{ site.baseurl }}/tag/eco01_09) 　＃良問  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解は：⑥  
 [復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
   
@@ -996,6 +1135,10 @@ f　どの面からみた総額もすべて等しい
 ⇒NIを引き算ではなく足し算で産出する方法もあり、やり方は三通り。生産を足し算、分配を足し算、そして支出を足し算。これらは全て等しい。…というのが、三面等価の原則である  
   
 ・よって、（イ）は「c　支出」、（ウ）は「f　どの面からみた総額もすべて等しい」である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 生徒Xは、市場の失敗の例を考えた。次の記述ア〜ウのうち、市場の失敗の例として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1015,6 +1158,10 @@ f　どの面からみた総額もすべて等しい
 [＃市場の失敗]({{ site.baseurl }}/tag/eco01_06)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第一章／市場の失敗](https://teacheramesaka.github.io/highschooleconomics/01_06.html)    
   
@@ -1032,6 +1179,10 @@ f　どの面からみた総額もすべて等しい
   
 ・誤文。情報の対称性は、むしろ、理想的な市場にあってほしい要素である  
 ⇒そういう知識がなくても、市場の失敗とは「政府が何もしない（自由放任）まま放っておくと、よくない事が起きるよ」であり、「市場で取引を行う場合、売り手がもっている情報をすべて買い手ももっている」ってよくない事か…？　と考えれば解ける  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 物価に関連して、生徒Xは、GDPデフレーターについて調べ、次のメモを作成した。メモ中の空欄（　ア　）には後の数値a〜dのいずれか、空欄（　イ　）には後の語句eかfのいずれかが当てはまる。空欄（　ア　）〜（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -1064,8 +1215,16 @@ f　下降
 [＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃フローとストック]({{ site.baseurl }}/tag/eco01_09)　＃良問  
   
   
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑦  
 [復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
   
@@ -1097,6 +1256,10 @@ f　下降
 >○この結果をみると、基準年と比較して2020年の物価は（　イ　）したといえる。  
   
 ・当然、（イ）に入る言葉は「上昇」となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 公害問題に関連して、生徒Xは、同一の汚染物質を排出する企業Aと企業Bだけが存在するある地域を想定し、ある年の企業Aと企業Bの汚染水の年間排出量と汚染水に含まれる汚染物質の割合（汚染水の濃度）を示す次の表を作成した。この地域で、汚染物質を減少させる規制を導入するとする。なお、企業Aと企業Bは後の**仮定**にしたがうものとする。この地域で1年間に排出される汚染水に含まれる汚染物質の総量を、いかなる場合においても規制導入以前より確実に減少させる規制の内容として正しいものを、後の①〜⑥のうちから一つ選べ。  
@@ -1124,6 +1287,10 @@ f　下降
   
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・一見すると「市場の失敗の公害関係の問題かな？」となるが、その実、ただの計算問題である  
@@ -1162,6 +1329,10 @@ f　下降
   
 ・つまり④を導入しても、最大まで11トン（規制前と同じ量）までは汚染物質が出せてしまう  
 ・よって、やはり④は誤答選択肢である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 生徒Yは、講義で配布された景気循環に関する次の資料1〜4を読み直している。資料2〜4は、1989年から1994年までの日本の、GDP、民間設備投資、民間部門の在庫、それぞれの実質額が前年に比べてどのように増減したかを示している。なお、資料2〜4の中の空欄ア〜ウには、「GDP」「民間設備投資」「民間部門の在庫」のいずれかの語句が当てはまる。空欄ア〜ウに当てはまるものの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1191,6 +1362,10 @@ f　下降
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃日本経済通史]({{ site.baseurl }}/tag/eco04_01-5)　[＃時事問題]({{ site.baseurl }}/tag/zeitproblem)　＃難問  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第四章／明治維新から終戦まで](https://teacheramesaka.github.io/highschooleconomics/04_01.html)    
 [復習用資料：経済分野第四章／終戦直後](https://teacheramesaka.github.io/highschooleconomics/04_02.html)    
@@ -1240,6 +1415,10 @@ f　下降
 ・一応見分ける点としては、1990年。（イ）は下がっており、（ウ）は上がっている  
 ⇒1990年はまだバブル景気で、景気がよかった年である。普通、景気がよければ設備投資も活発だし、GDPも上がる。…が、「景気がいいのにGDPが下がる」と「景気がいいのに設備投資が減ってる」どちらが不自然かと言えば、まぁ前者だよなぁ…で（イ）が設備投資、（ウ）がGDPと分かる  
 ～一応、無茶な知識を要求する理不尽問題ではないです。ただ難問ではある～  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問７  
 下線部⑥に関連して、生徒Yは、比較優位について復習するため、次の表のようなモデルケースを考え、後のメモを作成した。表は、自動車とオレンジのみを生産するA国とB国の、A国における技術革新前・技術革新後における、それぞれの財を1単位生産するために必要な労働者数を示したものである。ただし、いずれの国も、いずれの財の生産においても必要な生産要素は労働力のみとする。後の数値a〜cのうち、表中における空欄（　ア　）に当てはまる数値として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1262,6 +1441,10 @@ c　3
 [＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃比較生産費説]({{ site.baseurl }}/tag/eco01_01b)　[＃資本主義]({{ site.baseurl }}/tag/eco01_01)  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)  
 
@@ -1300,6 +1483,10 @@ c　3
 ・（ア）に入るのがc、つまり3の場合は、もう計算するまでもない  
 ・即ち、A国の自動車生産に対する比較優位はより盤石となる  
 ・よって、bとcが正解となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問８  
 生徒Yは、貿易による国内市場への影響について学習を進め、安価な冷凍野菜の輸入解禁が国内の生鮮野菜市場に与える影響を考えた。ただし、生鮮野菜の供給は国内のみから、冷凍野菜の供給は国外のみからであるとし、冷凍野菜の輸入解禁以外の変化は生鮮野菜市場において起こっていないものとする。さらに、消費者は、生鮮野菜の価格が高いほど、生鮮野菜より冷凍野菜を好んで購入する傾向にあるとする。このとき、冷凍野菜の輸入の解禁と解禁後の、生鮮野菜の需要曲線を表す図として最も適当なものを、次の①〜④のうちから一つ選べ。  
@@ -1309,6 +1496,10 @@ c　3
 [＃需要供給曲線]({{ site.baseurl }}/tag/eco01_05)  　＃難問  
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
 [復習用資料：経済分野第一章／需要供給曲線](https://teacheramesaka.github.io/highschooleconomics/01_05.html)   
   
@@ -1351,6 +1542,10 @@ c　3
 ・「冷凍野菜解禁後、人は、高い生鮮野菜を買わなくなる」に合致するのは②である  
   
 ・よって、正解は②となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ## 第４問  
 ### 問１  
@@ -1376,6 +1571,10 @@ c　ロック
 [＃国家の正当性の原理]({{ site.baseurl }}/tag/pol01_03)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：政治分野第一章／国家の正当性の原理](https://teacheramesaka.github.io/highschoolpolitics/01_03.html)  
   
@@ -1416,6 +1615,10 @@ c　ロック
 ・これは明らかに、自然状態は万人の万人に対する闘争状態になった、と言うホッブズ的な記述である  
   
 ・よって、アがcロック、イがbホッブズであると分かる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問２  
 生徒X、生徒Y、生徒Zは、アジアの経済情勢についての現状分析を行った。経済発展には人口が重要な影響をもつと考え、2020年時点で、アジアで人口が多い上位3か国の年齢別・性別人口構成をとりまとめた次の図を作成し、アジアの経済情勢について話し合っている。後の会話文中の空欄（　ア　）・（　イ　）に当てはまる国名と語句との組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1439,6 +1642,10 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
   
 ・完全に国語の問題。会話文と図表を読み取れさえすれば、政治経済の知識は必要ない  
@@ -1467,6 +1674,10 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
 ・そして、その露骨に少ない層より上の世代は沢山いるので…  
   
 ・という訳で、（ア）は中華人民共和国であると考えられる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問３  
 生徒Yは、下線部⑧の現状について調べた。アジアのインフラ開発やODA（政府開発援助）に関連する記述として最も適当なものを、次の①〜④のうちから一つ選べ。  
@@ -1479,6 +1690,10 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
 [＃国際経済の仕組み]({{ site.baseurl }}/tag/eco01_16)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第一章／国際経済の仕組み](https://teacheramesaka.github.io/highschooleconomics/01_16.html)  
 
@@ -1510,6 +1725,10 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
 >④　ODAは発展途上国の経済発展のために行われるものであり、日本では開発協力大綱によって日本の国益を考慮せずに行うことが示されている。  
   
 ・そもそも、日本の国益を考えてODAやりましょう、と決めたのが開発協力大綱である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問４  
 金融に関連して、生徒X、生徒Y、生徒Zは、家計の金融資産構成における日本、アメリカ、ヨーロッパの違いに関心をもち調べた。そして生徒たちは、日本、アメリカ、ヨーロエリアにおける家計の金融資産構成を示す次の資料をみつけ、その特徴について話し合っている。後の会話文中の空欄ア・イに当てはまる語句の組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1532,6 +1751,10 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃社会保障]({{ site.baseurl }}/tag/eco02_02)    
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)  
   
@@ -1556,6 +1779,10 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
 ・こう考えると、日本型の金融資産構成がYの好みに合うと考えられる  
   
 ※ただこの問題、「いやでもインフレしてると現金って価値下がっていくよな…？」という話を考慮に入れてしまうと大変面倒な事になってしまう。そういう考え方を考慮に入れるのであれば、ユーロエリアの金融資産構成が最も安定的とも言えそうな感じがしてしまう。うーんあんまりいい問題じゃないですねこれ…  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問５  
 生徒Zは、宇宙開発に関連して、宇宙に関する国際法について調べた。次の資料は、宇宙条約（宇宙空間平和利用条約）から条文を抜粋したものである（なお、資料には表記を改めた箇所や省略した箇所がある）。また、資料中の当事国とは、条約の効力が及びている国をいう。後の記述ア〜ウのうち、資料に基づいて判断したとき、当事国であるJ国が宇宙条約違反となる事例として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1581,6 +1808,10 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑦  
   
 ・徹頭徹尾国語の問題。令和六年本試の政治経済はとにかく国語の問題が多い  
@@ -1602,6 +1833,10 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
   
 ・これはちょっと長いが、並べてみれば選択肢ウが第七条違反だというのは分かる  
 ⇒「J国の企業Kが製作しJ国国内から打ち上げた人工衛星」は「宇宙空間に物体を発射しもしくは発射させる場合またはその領域から物体が発射される場合」のどれかに当たる。そして、発射された物体が「与える損害について国際的責任を有する」と第七条にはっきり書いてあるが、選択肢ウでは「J国は自国に国際的な責任はないと主張して責任をとらなかった」とある  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
   
 ### 問６  
 生徒Xと生徒Yは、科学技術の利用とリスクについて議論している。次の会話文中の空欄（　ア　）には後の語句aかb、空欄（　イ　）には後の記述cかd、空欄（　ウ　）には後の記述eかfのいずれかが当てはまる。空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1634,6 +1869,10 @@ f　1980年代の貿易摩擦で対象の品目に含まれていた半導体を
 [＃時事問題]({{ site.baseurl }}/tag/zeitproblem) 　[＃国語問題]({{ site.baseurl }}/tag/landessprache)　[＃新しい人権]({{ site.baseurl }}/tag/pol02_10)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：政治分野第二章／新しい人権](https://teacheramesaka.github.io/highschoolpolitics/02_10.html)
 
@@ -1676,3 +1915,7 @@ f　1980年代の貿易摩擦で対象の品目に含まれていた半導体を
 ・一方、eの「特定の重要な先端技術の流出を防止する」なら話は通る  
   
 ・よって、（ウ）はeが正解であると分かる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>

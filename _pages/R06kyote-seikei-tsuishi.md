@@ -30,6 +30,10 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
 [＃資本主義]({{ site.baseurl }}/tag/eco01_01/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：経済分野第一章／資本主義](https://teacheramesaka.github.io/highschooleconomics/01_01.html)  
   
@@ -45,11 +49,15 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
 ・ケインズは、自由放任による経済を批判し、政府が経済に介入すべきだと説いた人物である  
 ・一方フリードマンは、ケインズ的なやり方を批判し、自由主義的な経済を現代に蘇らせた  
 ・となれば、答えは①しかない  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
+  
 ### 問２
 税制に関連して、生徒Ｙは、日本の国税について学習を進めた。次の図は、1990年度と2019年度の国税の内訳を示したものである。図中の空欄（　ア　）〜（　ウ　）には、「消費税」、「所得税」、「法人税」のいずれかの語句が当てはまる。また、後の記述ａ〜ｃは、日本における消費税、所得税、法人税のいずれかに関するものである。空欄（　ア　）〜（　ウ　）と記述ａ〜ｃとの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
 
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/01-02.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/01-02.png)  
 
 ａ　企業の国際競争力の強化などを図るため、1980年代後半以降、繰り返し減税が行われてきた。  
 ｂ　諸外国における付加価値税に相当し、特定の品目に対して軽減税率が導入されている。  
@@ -62,6 +70,10 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
 [＃税]({{ site.baseurl }}/tag/eco01_15/)
 
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：経済分野第一章／税](https://teacheramesaka.github.io/highschooleconomics/01_15.html)
   
@@ -100,7 +112,11 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
   
 ・消去法で既に、aが法人税だというのは分かっている。よってイ‐aである  
 ・消去法抜きにしても、減税して企業の競争力が強化されるのは「会社から取る税金」が最右翼である  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
+  
 ### 問３  
 生徒Xは、日本の財政制度に関心をもち、学習を進めた。日本の財政制度に関する記述として最も適当なものを、次の①～④のうちから一つ選べ。  
   
@@ -112,6 +128,10 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
 [＃財政、予算、会計]({{ site.baseurl }}/tag/eco01_12/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第一章／財政、予算、会計](https://teacheramesaka.github.io/highschooleconomics/01_12.html)  
   
@@ -136,17 +156,25 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
   
 ・誤文  
 ⇒この説明は明らかに補正予算。暫定予算は、毎年一月からの通常国会で、四月からの予算が決まらなかった時に組むもの  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
+  
 ### 問４
 生徒Yは、アメリカの事例に関心をもち、「双子の赤字」について調べた。1980年代のアメリカの財政収支について正しく表したものを次の図アか図イ、1980年代のアメリカの経常収支について正しく表したものを後の図ウか図エから選び、その組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/01-04.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/01-04.png)  
   
 ①図アと図ウ　　　②図アと図エ　　　③図イと図ウ　　　④図イと図エ  
   
 [＃国際経済通史]({{ site.baseurl }}/tag/eco03_01/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第三章／国際経済通史](https://teacheramesaka.github.io/highschooleconomics/03_01.html)
 [復習用資料：経済分野第四章／安定成長期](https://teacheramesaka.github.io/highschooleconomics/04_04.html)
@@ -164,7 +192,11 @@ b　政府が重要な役割を果たすようになった結果、すでに政�
 ・これらを理解した上で図を見れば、自ずと答えは出る  
 ・図アイに関しては、歳入より歳出が多い状態の筈である。よって図イが正しい  
 ・図ウエに関しては、貿易が大幅に赤字の筈である。よって図ウが正しい  
-
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
+  
 ### 問５  
 NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは、さまざまな条約にかかわるNGOの活動を調べ、次のメモにまとめた。後の記述ア〜ウのうち、メモから読みとれるNGOの役割に関する記述として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
   
@@ -187,6 +219,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
    
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
   
 ・完全に国語の問題  
@@ -213,11 +249,15 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ・つまりイは誤文である  
   
 ・以上から、正文はアとウであると分かる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問６  
 地方財政について、生徒Ｘは、地方財政における福祉関係の支出に関心をもち、次の図１と図２を作成した。図１・図２は、都道府県と市町村の民生費の歳出について、2000年度と2019年度とを比較したものである。民生費とは、地方財政における福祉関係の経費のことである。図１・図２から読みとれる内容として誤っているものを、後の①〜④のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/01-06.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/01-06.png)  
   
 ①　都道府県の民生費について、２０１９年度の社会福祉費と老人福祉費の金額はいずれも２０００年度の２倍以上に増加している。児童福祉費の金額も増加しているが、構成比は下がっている。  
 ②　市町村の民生費について、２０１９年度の児童福祉費の金額は２０００年度の２倍以上に増加している。社会福祉費、老人福祉費、生活保護費の金額も増加しているが、構成比はいずれも下がっている。  
@@ -227,6 +267,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
   
 ・知識は必要なく、ただ選択肢と図１もしくは図２を見比べるだけの問題  
@@ -280,6 +324,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 生活保護費：市町村（図２）は372.4、都道府県（図１）は24.3　⇒　二倍以上である  
   
 ・以上から、④は誤文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問７  
 国連（国際連合）に関連して、生徒Ｘと生徒Ｙは、安全保障における国連の意義について話し合っている。次の会話文中の空欄（　ア　）に当てはまる記述として最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -296,6 +344,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃国際連合]({{ site.baseurl }}/tag/pol04_06/)　[＃現代国際政治史―ModernWarfare]({{ site.baseurl }}/tag/pol04_03/)　＃難問  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：政治分野第四章／国際連合](https://teacheramesaka.github.io/highschoolpolitics/04_06.html)  
 [復習用資料：政治分野第四章／現代国際政治史―ModernWarfare](https://teacheramesaka.github.io/highschoolpolitics/04_03.html)  
@@ -326,6 +378,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ⇒同じ「多国籍軍」でも、湾岸戦争の時のものは安保理の武力行使容認決議に基づいており、イラク戦争の時のものは安保理の武力行使容認決議を経ていない…というのは一つ、大事な点である。ちなみに朝鮮戦争の時のものは、特別に「国連の旗使っていいよ」という決議が出ているので「国連軍」と呼ばれる事もある（ソ連は朝鮮戦争の途中から安保理を欠席しており、米国側が好き勝手にできた結果がこれである）  
 
 ・よって、誤文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問８  
 主権国家に関連して、生徒Ｙは、国家が領域に対してもつ権利について調べ、次のメモにまとめた。メモを踏まえて判断したとき、後の記述ア〜ウのうち、国家が領域に対してもつ国際法上の権利を行使する例として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -349,6 +405,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)　[＃国家とは何か]({{ site.baseurl }}/tag/pol01_01/)  
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：政治分野第一章／国家とは何か](https://teacheramesaka.github.io/highschoolpolitics/01_01.html)
   
@@ -371,6 +431,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ⇒問題文にあるように「国家の領域に主権が及ぶことは、また、その領域を使用したり、処分したりする権利が認められることを意味する。過去には、国家が自国の領域の一部を他国に売り渡すこともあった」。自国の領域の一部を他国に売り渡す事さえできるのだから、当然、自国の領域の一部を国際機関に使わせるぐらい構わないのである  
   
 ・よって、アとウのみが正文となる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ## 第２問  
   
@@ -379,7 +443,7 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ### 問１  
 国富について、生徒Ｘは、日本の政府統計を調べ、次の表を作成した。後の**ノート**は表から国富を読みとりＸがまとめたものである。**ノート**中の空欄ア〜ウに当てはまる語句の組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/02-01.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/02-01.png)  
   
 **ノート**  
 　非金融資産は生産資産と非生産資産に分類される。生産資産とは固定資産と在庫の合計のことであり、非生産資産とは土地や鉱物資源などである。次に、金融資産とは現金・預金や株式などの資産である。  
@@ -397,6 +461,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃フローとストック]({{ site.baseurl }}/tag/eco01_09/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
   
@@ -444,11 +512,15 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ・一方、正味資産は、金融資産と非金融資産の合計から負債を引いた額になっている  
   
 ・よって、（ウ）は正味資産である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問２
 循環型社会に関して、生徒Ｙは、政府の資料を参照して、日本における循環型社会を形成していくための方策をまとめた次の図を作成した。図中の空欄（　ア　）〜（　ウ　）には、循環型社会の形成に必要な何らかの行為や活動を示す語句が当てはまる。また、後の記述ａ〜ｃは、空欄（　ア　）〜（　ウ　）にそれぞれ当てはまる行為や活動の具体例を示したものである。空欄（　ア　）〜（　ウ　）に当てはまる行為や活動と記述ａ〜ｃとの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/02-02.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/02-02.png)  
   
 ａ　製造企業が、企業内のさまざまな伝達に電子メールを活用することで、ペーパーレス化を推進する。  
 ｂ　すでに着なくなった子供服を、フリーマーケットなどを通じて別の子育て世帯に売却する。  
@@ -461,6 +533,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
   
 ・環境問題に見せかけ…てすらいない、国語の問題  
@@ -490,11 +566,15 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 ・逆にbは、捨てる商品がゴミ処理場に行く前の話である  
 ・「ある消費者にとってゴミとなった商品を、別に消費者に届ける話」である  
 ・よって、ウ―ｂである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問３
 生徒Ｘは、国債残高の増大に関連する新聞記事検索を行い、次の記事をみつけた。記事中の空欄（　ア　）には後の記述ａかｂ、空欄（　イ　）には後の語句ｃかｄのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/02-02.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/02-02.png)  
   
 （　ア　）  
 ａ　特例国債を発行して行う所得税減税により消費需要を強力に刺激  
@@ -509,6 +589,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 [＃通貨とは何か]({{ site.baseurl }}/tag/eco01_08/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第一章／通貨とは何か](https://teacheramesaka.github.io/highschooleconomics/01_08.html)
   
@@ -551,6 +635,10 @@ NGO（非政府組織）の役割に関心をもった生徒Ｘと生徒Ｙは�
 参考：財務省の統計（https://www.mof.go.jp/jgbs/reference/appendix/breakdown.pdf）  
   
 ・よって、（イ）はcである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問４  
 FTA（自由貿易協定）・EPA（経済連携協定）に関して、生徒Ｘと生徒Ｙが話し合っている。次の会話文中の空欄（　ア　）〜（　ウ　）に当てはまる語句の組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -573,6 +661,10 @@ FTA（自由貿易協定）・EPA（経済連携協定）に関して、生徒�
 [＃国際経済通史]({{ site.baseurl }}/tag/eco03_01/)　[＃国際経済テーマ史]({{ site.baseurl }}/tag/eco03_02/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑦  
 [復習用資料：経済分野第三章／国際経済通史](https://teacheramesaka.github.io/highschooleconomics/03_01.html)
 [復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)
@@ -608,6 +700,10 @@ FTA（自由貿易協定）・EPA（経済連携協定）に関して、生徒�
 ・ここの選択肢は増加、減少である  
 ・WTOが機能不全に陥ったのは、加盟国が増えすぎたせいである  
 ・よって、（ウ）は増加である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問５  
 経済協力に関して、生徒Ｘは、日本の経済協力について調べ、次のメモを作成した。メモ中の空欄（　ア　）には後の語句ａ〜ｃのいずれか、空欄には後の記述ｄかｅのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして正しいものを、後の①〜⑥のうちから一つ選べ。  
@@ -631,6 +727,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃時事問題]({{ site.baseurl }}/tag/zeitproblem/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
   
 ・普段から報道を見ていたり、世の中を見る解像度を高くしていたりすれば問題なく解ける問題  
@@ -659,6 +759,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・そういう組織が、何処かの国家の政府首班の指揮監督を受けるというのは、明らかに変と言えよう  
   
 ・よって、（イ）はeであると分かる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問６  
 グローバル化時代に関連して、生徒Ｘと生徒Ｙが、外国人との共生社会のあり方について話し合っている。次の会話文中の空欄（　ア　）には後の語句ａかｂ、空欄（　イ　）には後の記述ｃかｄのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -684,6 +788,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃時事問題]({{ site.baseurl }}/tag/zeitproblem/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
   
 ・普段から報道を見ていたり、世の中を見る解像度を高くしていたりすれば問題なく解ける問題  
@@ -717,6 +825,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・よって、（イ）はcである  
   
 余談：「自国人と外国人の間に格差をつけよう」みたいな類の国も存在はする。例えば中東湾岸諸国では「出稼ぎ・移民労働者による犯罪はほぼありません！」みたいな国が結構あるが、大抵の場合、要はとんでもない格差がついているから犯罪も起きない（犯罪を起こせるような扱いを受けていない）のである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問７  
 生徒Ｙは、食の安全について調べた。次のア〜ウのうち、日本における食の安心・安全に関する記述として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①～⑦のうちから一つ選べ。  
@@ -736,6 +848,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃消費者問題]({{ site.baseurl }}/tag/eco02_04/)  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第二章／消費者問題](https://teacheramesaka.github.io/highschooleconomics/02_04.html)
   
@@ -766,6 +882,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・そう考えると、ウのみが正文であろうと結論できるのである  
   
 ⇒即ち、問題作成者は恐らく、受験生がグリーン・コンシューマーやトレーサビリティの知識を持っているとは期待せずに本問を作っている。そういう知識がなくても解けるように作られている問題である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問８
 生徒Ｘは、社会保障に関心をもち、社会保障制度がどのように生まれ、展開してきたかを示す次のメモを作成した。メモ中の空欄（　ア　）〜（　ウ　）には後の記述ａ〜ｃのいずれかが当てはまる。空欄（　ア　）〜（　ウ　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -789,6 +909,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃社会保障]({{ site.baseurl }}/tag/eco02_02/)  
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)
   
@@ -817,6 +941,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・となると（イ）はaであると考えられる  
   
 ・そして（ウ）は、消去法でbであると分かる  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ## 第３問
 
@@ -840,6 +968,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃司法府（裁判所）]({{ site.baseurl }}/tag/pol03_04/)　[＃大日本帝国憲法と日本国憲法]({{ site.baseurl }}/tag/pol02_01/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：政治分野第三章／現代日本の統治制度と権力分立](https://teacheramesaka.github.io/highschoolpolitics/03_01.html)
 [復習用資料：政治分野第二章／大日本帝国憲法と日本国憲法](https://teacheramesaka.github.io/highschoolpolitics/02_01.html)
@@ -867,11 +999,15 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
   
 ・これは正文である  
 ⇒国事行為と国政行為、ごっちゃになりやすいので気を付けるようにしよう  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問２  
 頻発する武力紛争に関して、生徒Ｘと生徒Ｙは、オープンキャンパスが終わった後に模擬授業で配られた次の資料をみながら話をしている。資料は、第二次世界大戦後に起こった「国家が関与する武力紛争」を「独立戦争」、「国家間紛争」、「国際化された国内紛争」、「国内紛争」の四つに分けて、それぞれ示したものである。後の会話文中の空欄（　ア　）には後の記述ａかｂ、空欄（　イ　）には後の記述ｃかｄのいずれかが当てはまる。空欄（　ア　）・（　イ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/03-02.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/03-02.png)  
   
 Ｘ：資料にある「独立戦争」というのは、植民地の独立をめぐる武力紛争のことだと模擬授業で学んだけど、１９７０年代を最後にみられないね。  
 Ｙ：そうだね。この資料をみると、それ以外の「国家間紛争」、「国際化された国内紛争」、「国内紛争」は、２０２０年現在までみられるね。「国家間紛争」というのは、国家同士が戦う武力紛争のことだったね。  
@@ -895,6 +1031,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃現代国際政治史―ModernWarfare]({{ site.baseurl }}/tag/pol04_03/)　[＃世界の紛争]({{ site.baseurl }}/tag/pol04_04/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：政治分野第四章／現代国際政治史―ModernWarfare](https://teacheramesaka.github.io/highschoolpolitics/04_03.html)  
 [復習用資料：政治分野第四章／世界の紛争](https://teacheramesaka.github.io/highschoolpolitics/04_04.html)  
@@ -927,6 +1067,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
   
 ・二択なので、ユーゴ内戦とアラブの春、どちらの知識を使っても解ける  
 ・ともあれ、（イ）はcである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問３
 国連平和維持活動(PKO)に関して、PKOへの部隊派遣人数に関心をもった生徒Ｙは、模擬授業後に次の**メモ**を後の表１〜３をみながら作成した。**メモ**と表１〜３中の空欄（　ア　）には「ソマリア」か「ルワンダ」のいずれか、表１〜３中の空欄（　イ　）〜（　エ　）には「１９９０年」、「２００２年」、「２０２２年」のいずれかが当てはまる。空欄（　ア　）・（　エ　）に当てはまるものの組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -935,7 +1079,7 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 〇（　ア　）は紛争中にはPKOを派遣される側の国であったが、紛争後は民族間の融和・和解や経済成長が進んでおりPKOに部隊を多く派遣するようにもなった。  
 〇日本は２０１５年のPKO協力法改正によって駆けつけ警護が可能となったが、その後の南スーダンからの撤退もあり、部隊派遣人数は減少した。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/03-03.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/03-03.png)  
   
 ①　ア　ソマリア　　　エ　１９９０年  
 ②　ア　ソマリア　　　エ　２００２年  
@@ -947,6 +1091,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃世界の紛争]({{ site.baseurl }}/tag/pol04_04/)　[＃時事問題]({{ site.baseurl }}/tag/zeitproblem/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：政治分野第四章／世界の紛争](https://teacheramesaka.github.io/highschoolpolitics/04_04.html)
   
@@ -981,6 +1129,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・となると、表１表２は1990年か2002年、表３は2022年と考えるのが妥当である  
   
 ・よって、（イ）は2022年である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問４
 生徒Ｘは、国会の役割に関心をもった。日本の国会における制度に関する記述として最も適当なものを、次の①〜④のうちから一つ選べ。  
@@ -993,6 +1145,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃立法府（国会）]({{ site.baseurl }}/tag/pol03_02/)
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：政治分野第三章／立法府（国会）](https://teacheramesaka.github.io/highschoolpolitics/03_02.html)  
   
@@ -1018,6 +1174,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 >④憲法は、国政調査権を衆議院と参議院に認めており、証人の出頭や証言に加えて記録の提出を要求することができると定めている。  
   
 ・正文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問５  
 立法に関して、生徒Ｘは、差別解消に関連する立法による対応について調べた。日本における差別の解消に関連する法律についての記述として誤っているものを、次の①〜④のうちから一つ選べ。  
@@ -1030,6 +1190,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃社会保障]({{ site.baseurl }}/tag/eco02_02/)  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
 [復習用資料：経済分野第二章／社会保障](https://teacheramesaka.github.io/highschooleconomics/02_02.html)
   
@@ -1041,6 +1205,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
   
 ・障害者雇用促進法は、勿論、企業にも障害者雇用枠の設定を義務付けている  
 ・よって④が誤文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問６
 生徒Ｘは、違憲審査に関心をもち、法律の規定を違憲と判断した日本の最高裁判所の判例について調べた。最高裁判所の判例に関する記述として最も適当なものを、次の①〜④のうちから一つ選べ。  
@@ -1053,6 +1221,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃日本国憲法と人権（自由権）]({{ site.baseurl }}/tag/pol02_05/)　[＃日本国憲法と人権（平等権）]({{ site.baseurl }}/tag/pol02_08/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：①  
 [復習用資料：政治分野第二章／日本国憲法と人権（自由権）](https://teacheramesaka.github.io/highschoolpolitics/02_05.html)  
 [復習用資料：政治分野第二章／日本国憲法と人権（平等権）](https://teacheramesaka.github.io/highschoolpolitics/02_08.html)  
@@ -1077,6 +1249,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
   
 ・議員定数不均衡問題に関しては、最高裁は何度か違憲判決を出している  
 ・が、これは平等権に関する裁判である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問７
 生徒Ｙは、模擬授業後、条約に関して調べた。人権保障についての条約に関する次の記述ア〜ウのうち、正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1096,6 +1272,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃人権の拡大]({{ site.baseurl }}/tag/pol01_05/)　[＃時事問題]({{ site.baseurl }}/tag/zeitproblem/)  
   
 ### 問７解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：政治分野第一章／人権の拡大](https://teacheramesaka.github.io/highschoolpolitics/01_05.html)
   
@@ -1131,6 +1311,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
   
 ・まさに「身の回りの事に興味関心を持って、自分なりに探求」していれば、出てくるのである  
 ⇒のだが、「こんな問題を、国公立受験する奴が全員受けるような試験で出していいのか？」と言われるとまぁうん。私は反対です  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問８
 生徒Ｙは、模擬授業後、下線部について調べた結果、世界的な問題として「南北問題」や「南南問題」があることを知った。次の記述ア〜ウのうち、「南北問題」や「南南問題」に関する記述として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1150,6 +1334,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃国際経済テーマ史]({{ site.baseurl }}/tag/eco03_02/)  
   
 ### 問８解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第三章／国際経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/03_02.html)  
   
@@ -1197,6 +1385,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問１解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：②  
   
 ・涙が出るほどマトモな会話をしている高校生の会話文を読んで答える国語問題  
@@ -1224,6 +1416,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 ・その意味が通るのはdである  
   
 ・よって、イはdである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問２  
 生徒Ｘは、産業構造や産業のあり方の変化について調べ、第二次世界大戦後の日本の産業構造に関する次の**メモ**と後の図を作成した。**メモ**中の空欄（　ア　）〜（　ウ　）には、後の記述ａ〜ｃが一つずつ当てはまる。また、図中の空欄（　A　）・（　B　）は、後の語句ｄかｅのいずれかが当てはまる。空欄（　イ　）・（　B　）に当てはまるものの組合せとして最も適当なものを、後の①〜⑥のうちから一つ選べ。  
@@ -1233,7 +1429,7 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 　１９７０年代以降、第二次産業は縮小傾向に転じるが、（　イ　）が進み、これらが安定成長期における日本経済の国際競争力を高めることとなった。  
 　しかし、１９９０年代以降、経済のグローバル化の中で新興国の経済発展が進むと、製造業の中にはかつての国際競争力を維持することが困難となるものがみられるようになってきた。そのような中で、（　ウ　）が十分に進んでいるとはいえず、この点が、現在の日本経済の課題となっている。  
   
-![]( {{ site.baseurl }}/media/R07kyote-seikei-tsuishi/04-02.png)  
+![]( {{ site.baseurl }}/media/R06kyote-seikei-tsuishi/04-02.png)  
   
 ａ　製造業において従来型の電機などに代わる新産業の発展、第三次産業において次代を担いうる新産業の発展  
 ｂ　製造業において、軽工業から重化学工業への転換  
@@ -1248,6 +1444,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃日本経済テーマ史]({{ site.baseurl }}/tag/eco04_06/)  
   
 ### 問２解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑤  
 [復習用資料：経済分野第四章／日本経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/04_06.html)  
   
@@ -1284,6 +1484,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 １：産業の空洞化で、ここ二十年ぐらいは製造業の就業者減ってるだろうな  
 ２：技術の進歩で、少人数で工場を動かせるようになってきてる筈。って事は製造業の労働者は減るな  
 ３：少子高齢化で、高齢者の数は増える一方。老人ホームもデイケアセンターも大量にできるし、福祉分野の労働者は増えるしかないよね  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問３
 法律による保護と規制緩和に関連して、生徒Ｘは、２００２年の道路運送法の改正とその影響、関連する法律について調べることで、各産業における健全な競争のあり方やそれへの政府の介入の仕方について考えることとし、次のメモを作成した。後の記述ア〜ウのうち、メモから読みとれる内容として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1322,6 +1526,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問３解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：④  
   
 ・小泉政権期の規制緩和がお題ではあるが、純粋な国語の問題である  
@@ -1346,6 +1554,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 >２０１３年タクシー適正化・活性化法改正により、供給が過剰な「特定地域」としての指定がなされた場合には、その地域での事業者の新規参入および既存業者のタクシー台数の増車が一律禁止され、タクシーの運賃が一定の額を下回るときには国土交通大臣等による運賃変更命令が出されるようになった。  
   
 ・最後のウも、こうして並べれば何も言う事はない。ウは誤文である  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問４  
 企業の生産拠点の海外移転に関連して、生徒Ｙは、A国の企業がA国内からB国へ生産拠点を移転した場合、A国の輸出や輸入はさまざまな影響を受けると考え、それらを次のメモ中の記述ａ〜ｄにまとめた。さらに、Ｙは、他の条件が一定のとき、メモ中の記述ａ〜ｄの効果が表れた場合にA国の貿易収支が受ける影響について考察し、それらをメモ中の記述ｅ・ｆにまとめた。メモ中の空欄（　ア　）〜（　エ　）には、それぞれ「増加」または「減少」の語句が当てはまり、空欄（　オ　）・（　カ　）には、それぞれ「黒字化」または「赤字化」の語句が当てはまる。メモ中の空欄（　ア　）・（　オ　）・（　カ　）に当てはまる語句の組合せとして最も適当なものを、後の①〜⑧のうちから一つ選べ。  
@@ -1373,6 +1585,10 @@ e　日本のODA（政府開発援助）を行う国際協力機構を通じた�
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
   
 ### 問４解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑧  
   
 ・基本的には、本文を読み解けばそれで正解が出てくる国語の問題である  
@@ -1443,6 +1659,10 @@ B国で生産⇒輸出⇒A国で販売
   
 ・まとめると、以下のようになる  
 ア：減少　　イ：増加　　ウ：増加　　エ：減少　　オ：赤字化　　カ：赤字化  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問５  
 生徒Ｙは、ベンチャー企業について調べてみた。次の記述ア〜ウのうち、日本におけるベンチャー企業に関連する記述として正しいものはどれか。当てはまるものをすべて選び、その組合せとして最も適当なものを、後の①〜⑦のうちから一つ選べ。  
@@ -1464,6 +1684,10 @@ B国で生産⇒輸出⇒A国で販売
 [＃企業とは]({{ site.baseurl }}/tag/eco01_07/)　[＃日本経済テーマ史]({{ site.baseurl }}/tag/eco04_06/)　＃難問  
   
 ### 問５解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：⑥  
 [復習用資料：経済分野第一章／企業とは](https://teacheramesaka.github.io/highschooleconomics/01_07.html)  
 [復習用資料：経済分野第四章／日本経済テーマ史](https://teacheramesaka.github.io/highschooleconomics/04_06.html)  
@@ -1501,6 +1725,10 @@ B国で生産⇒輸出⇒A国で販売
   
 ・という訳で、一応、政治経済の授業でやるような知識だけでも正文と判断はできる  
 ・ただちょっとこれは、流石に厳しいのでは…？  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
 
 ### 問６
 生徒Ｘと生徒Ｙは、イノベーションを促進するための各種の法制度や政策について発表するため、イノベーション支援策を話し合っている。次の会話文中の空欄（　ア　）・（　イ　）に当てはまる語句の組合せとして最も適当なものを、後の①〜④のうちから一つ選べ。  
@@ -1518,6 +1746,10 @@ B国で生産⇒輸出⇒A国で販売
 [＃日本経済通史]({{ site.baseurl }}/tag/pol01_01-5/)  
   
 ### 問６解説  
+<div class="collapsible">
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <div class="collapsible-content">
+    {% capture markdown_content %}
 正解：③  
 [復習用資料：経済分野第四章／失われた三十年](https://teacheramesaka.github.io/highschooleconomics/04_05.html)
   
@@ -1537,3 +1769,7 @@ B国で生産⇒輸出⇒A国で販売
 ・合わせて、リスキル(reskill)もしくはリスキリング(reskilling)で新しい技能の習得を意味する  
   
 ・よって、（イ）はリスキリングである  
+    {% endcapture %}
+    {{ markdown_content | markdownify }}
+  </div>
+</div>
