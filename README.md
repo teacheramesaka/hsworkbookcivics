@@ -11,7 +11,7 @@ permalink: /
 ※本サイトは試験運用中です。問題数もまだまだ少なく、タグだけあって問題はない、みたいな事も普通にあります。詳細は以下を参照してください  
 
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　試験運用中故の問題を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
     ・既知のバグとして、一部ページに於いて、サイドバーの動作がおかしいです  
@@ -25,10 +25,11 @@ permalink: /
 </div>
 
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　更新履歴を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
-    令和六年八月十一日：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問題文と解説をアップロード  
+- 令和六年八月十二日：問題の解説を折り畳むように変更
+- 令和六年八月十一日：「令和六年度　大学入学共通テスト追試験　政治・経済」の全問題文と解説をアップロード  
     {% endcapture %}
     {{ markdown_content | markdownify }}
   </div>
