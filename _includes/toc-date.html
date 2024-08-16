@@ -125,6 +125,10 @@
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
                         <li><a href="{{ site.baseurl }}/tag/pol02_03">{{ tagname }} ({{ tagged_posts | size }})</a></li>
 
+                        {% assign tagname = "日本国憲法と人権（総論）" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol02_04">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
                         {% assign tagname = "日本国憲法と人権（自由権）" %}
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
                         <li><a href="{{ site.baseurl }}/tag/pol02_05">{{ tagname }} ({{ tagged_posts | size }})</a></li>

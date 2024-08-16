@@ -48,6 +48,11 @@
   {% assign tag_posts = site.tags[tag_name] %}
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 
+  {% assign tag_name = "日本国憲法と人権（総論）" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
   {% assign tag_name = "日本国憲法と人権（自由権）" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
   {% assign tag_posts = site.tags[tag_name] %}
