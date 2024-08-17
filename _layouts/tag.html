@@ -2,38 +2,15 @@
 <html lang="en">
 <head>
     {%- include head.html -%}
-
-    {% assign reversed_posts = site.posts | reverse %}
-
-    {% if reversed_posts %}
-        <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
-    {% endif %}
 </head>
 <body>
     <div class="book">
         {%- include toc-date.html -%}
 
         <div class="book-body">
-            <div class="book-header" role="navigation">
-                <!-- タイトル表示 -->
-                {% if page.tag %}
-                    <h1>{{ page.tag }}タグの問題一覧</h1>
-                {% else %}
-                    <h1>タグ名がありません</h1>
-                {% endif %}
-            </div>
-
             <div class="body-inner">
-                <!-- タグ付けされた投稿のリストを表示 -->
-                {% assign tagname = page.tag %}
-                {% assign tagged_posts = site.posts | where: "tags", tagname %}
-                <p>このタグが付いた問題の数: {{ tagged_posts | size }}</p>
-
-                <ul>
-                    {% for post in tagged_posts %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
+                <!-- 手動でタイトルやコンテンツを設定 -->
+                {{ content }}
             </div>
         </div>
 
