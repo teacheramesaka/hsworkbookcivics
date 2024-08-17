@@ -16,7 +16,11 @@
         <div class="book-body">
             <div class="book-header" role="navigation">
                 <!-- タイトル表示 -->
-                <h1>{{ page.tag }}タグの問題一覧</h1>
+                {% if page.tag %}
+                    <h1>{{ page.tag }}タグの問題一覧</h1>
+                {% else %}
+                    <h1>タグ名がありません</h1>
+                {% endif %}
             </div>
 
             <div class="body-inner">
