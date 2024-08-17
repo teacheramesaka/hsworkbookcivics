@@ -1,45 +1,71 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入 -->
-    {%- include head.html -%}
-</head>
-<body>
-    <div class="book">
-        <!-- toc-date.htmlをインクルードして、ページの目次を挿入 -->
-        {%- include toc-date.html -%}
+<html lang="en" >
+    <head>
 
-        <div class="book-body">
-            <div class="book-header" role="navigation">
-                <!-- タイトル表示 -->
-                <h1>{{ page.tag }}タグの問題一覧</h1>
+        <!-- head.htmlをインクルードして、ページの<head>セクションに共通のメタデータやスタイルシート、スクリプトを挿入する -->
+        {%- include head.html -%}
+
+        <!-- site.postsを逆順にしてreversed_postsという変数に代入する。最新の投稿を最初に表示するため -->
+        {% assign reversed_posts = site.posts | reverse %}
+
+        <!-- reversed_postsが存在する場合、最初の投稿（最新の投稿）へのリンクを設定 -->
+        {% if reversed_posts %}
+            <link rel="next" href="{{site.baseurl}}{{reversed_posts.first.url}}" />
+        {% endif %}
+    </head>
+    <body>
+        <div class="book">
+
+            <!-- toc-date.htmlをインクルードして、ページの目次を挿入する -->
+            {%- include toc-date.html -%}
+
+            <div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- タイトル表示 -->
+                    <h1>{{ page.tag }}タグの問題一覧</h1>
+                        </h1>
+                </div>
+
+                <div class="body-inner">
+                    <!-- body.htmlをインクルードして、ページの主要なコンテンツを挿入する -->
+                    {%- include body.html -%}
+
+                    <!-- サイトのホームページへのリンクを設定 -->
+                    <a href="{{site.baseurl}}/" class="navigation navigation-pre navigation-unique">
+                        <i class="fa"></i>
+                    </a>
+
+                    <!-- reversed_postsが存在する場合、最初の投稿（最新の投稿）へのナビゲーションリンクを設定 -->
+                    {% if reversed_posts %}
+                        <a href="{{site.baseurl}}{{reversed_posts.first.url}}" class="navigation navigation-next navigation-unique" aria-label="Next page: {{reversed_posts.first.title}}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
+
+                    <!-- タグ付けされた投稿のリストを表示 -->
+                    {% assign tagname = page.tag %}
+                     {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                    <p>このタグが付いた問題の数: {{ tagged_posts | size }}</p>
+
+                    <ul>
+                        {% for post in tagged_posts %}
+                            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
 
-            <div class="body-inner">
-                <!-- タグ付けされた投稿のリストを表示 -->
-                {% assign tagname = page.tag %}
-                {% assign tagged_posts = site.posts | where: "tags", tagname %}
-                <p>このタグが付いた問題の数: {{ tagged_posts | size }}</p>
-
-                <ul>
-                    {% for post in tagged_posts %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </div>
+            <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-home.json.tpl -%});
+            });
+            </script>
         </div>
-    </div>
 
-    <!-- ページが変更されたことをGitBookに通知するスクリプトを追加 -->
-    <script>
-    var gitbook = gitbook || [];
-    gitbook.push(function() {
-        gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
-    });
-    </script>
+        <!-- footer.htmlをインクルードして、ページのフッターを挿入する -->
+        {%- include footer.html -%}
 
-    <!-- footer.htmlをインクルードして、ページのフッターを挿入 -->
-    {%- include footer.html -%}
-
-</body>
+    </body>
 </html>
