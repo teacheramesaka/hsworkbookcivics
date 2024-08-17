@@ -158,6 +158,10 @@
                     <span class="toggle"></span>
                     <a href="javascript:void(0);" onclick="pageScrollToTop(this)">政治分野第三章</a>
                     <ul>
+                        {% assign tagname = "現代日本の統治制度と権力分立" %}
+                        {% assign tagged_posts = site.posts | where: "tags", tagname %}
+                        <li><a href="{{ site.baseurl }}/tag/pol03_01">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+
                         {% assign tagname = "立法府（国会）" %}
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
                         <li><a href="{{ site.baseurl }}/tag/pol03_02">{{ tagname }} ({{ tagged_posts | size }})</a></li>

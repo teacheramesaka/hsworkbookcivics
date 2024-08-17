@@ -86,6 +86,11 @@
 
 <h3>政治分野第三章</h3>
 <ul>
+  {% assign tag_name = "現代日本の統治制度と権力分立" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
   {% assign tag_name = "立法府（国会）" %}
   {% assign tag_link = site.data.tag_links[tag_name] %}
   {% assign tag_posts = site.tags[tag_name] %}
