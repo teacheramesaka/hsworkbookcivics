@@ -3,3 +3,13 @@ layout: tag
 tag: 地方自治
 permalink: /tag/pol03_07/
 ---
+
+<h1>「地方自治」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "地方自治" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "地方自治" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

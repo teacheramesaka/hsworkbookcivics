@@ -3,3 +3,13 @@ layout: tag
 tag: 現代日本の統治制度と権力分立
 permalink: /tag/pol03_01/
 ---
+
+<h1>「現代日本の統治制度と権力分立」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "現代日本の統治制度と権力分立" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "現代日本の統治制度と権力分立" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

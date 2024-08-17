@@ -3,3 +3,13 @@ layout: tag
 tag: 企業とは
 permalink: /tag/eco01_07/
 ---
+
+<h1>「企業とは」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "企業とは" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "企業とは" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

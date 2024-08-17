@@ -3,3 +3,13 @@ layout: tag
 tag: 司法府（裁判所）
 permalink: /tag/pol03_04/
 ---
+
+<h1>「司法府（裁判所）」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "司法府（裁判所）" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "司法府（裁判所）" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

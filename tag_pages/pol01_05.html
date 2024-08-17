@@ -3,3 +3,13 @@ layout: tag
 tag: 人権の拡大
 permalink: /tag/pol01_05/
 ---
+
+<h1>「人権の拡大」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "人権の拡大" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "人権の拡大" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

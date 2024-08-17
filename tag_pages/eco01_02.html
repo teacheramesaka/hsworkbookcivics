@@ -3,3 +3,13 @@ layout: tag
 tag: 社会主義
 permalink: /tag/eco01_02/
 ---
+
+<h1>「社会主義」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "社会主義" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "社会主義" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

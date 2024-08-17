@@ -3,3 +3,13 @@ layout: tag
 tag: 通貨とは何か
 permalink: /tag/eco01_08/
 ---
+
+<h1>「通貨とは何か」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "通貨とは何か" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "通貨とは何か" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

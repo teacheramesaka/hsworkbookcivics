@@ -3,3 +3,13 @@ layout: tag
 tag: 社会保障
 permalink: /tag/eco02_02/
 ---
+
+<h1>「社会保障」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "社会保障" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "社会保障" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

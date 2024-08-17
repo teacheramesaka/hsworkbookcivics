@@ -3,3 +3,13 @@ layout: tag
 tag: 経済成長率
 permalink: /tag/eco01_10/
 ---
+
+<h1>「経済成長率」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "経済成長率" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "経済成長率" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

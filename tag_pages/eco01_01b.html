@@ -3,3 +3,13 @@ layout: tag
 tag: 比較生産費説
 permalink: /tag/eco01_01b/
 ---
+
+<h1>「比較生産費説」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "比較生産費説" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "比較生産費説" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

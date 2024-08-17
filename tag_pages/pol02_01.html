@@ -3,3 +3,13 @@ layout: tag
 tag: 大日本帝国憲法と日本国憲法
 permalink: /tag/pol02_01/
 ---
+
+<h1>「大日本帝国憲法と日本国憲法」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "大日本帝国憲法と日本国憲法" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "大日本帝国憲法と日本国憲法" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

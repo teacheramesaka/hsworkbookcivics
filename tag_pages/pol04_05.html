@@ -3,3 +3,13 @@ layout: tag
 tag: 戦後日本の国際政治
 permalink: /tag/pol04_05/
 ---
+
+<h1>「戦後日本の国際政治」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "戦後日本の国際政治" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "戦後日本の国際政治" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

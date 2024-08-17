@@ -3,3 +3,13 @@ layout: tag
 tag: 今日的な福祉問題
 permalink: /tag/eco02_03/
 ---
+
+<h1>「今日的な福祉問題」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "今日的な福祉問題" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "今日的な福祉問題" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

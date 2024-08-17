@@ -3,3 +3,13 @@ layout: tag
 tag: 新しい人権
 permalink: /tag/pol02_10/
 ---
+
+<h1>「新しい人権」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "新しい人権" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "新しい人権" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
