@@ -12,14 +12,14 @@
         <div class="book-body">
             <div class="book-header" role="navigation">
                 <!-- タイトル表示 -->
-                <h1>タグ: {{ page.tag }}</h1>
+                <h1>{{ page.tag }}タグの問題一覧</h1>
             </div>
 
             <div class="body-inner">
                 <!-- タグ付けされた投稿のリストを表示 -->
                 {% assign tagname = page.tag %}
                 {% assign tagged_posts = site.posts | where: "tags", tagname %}
-                <p>このタグが付いたページの数: {{ tagged_posts | size }}</p>
+                <p>このタグが付いた問題の数: {{ tagged_posts | size }}</p>
 
                 <ul>
                     {% for post in tagged_posts %}
