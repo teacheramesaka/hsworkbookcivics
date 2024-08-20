@@ -159,7 +159,7 @@ d財政上必要な場合は法律の定めなしに国税を徴収すること�
   
 ①ア―a　イ―c　　②ア―a　イ―d　　③ア―b　イ―c　　④ア―b　イ―d  
   
-[＃国語問題]({{ site.baseurl }}/tag/landessprache/)  
+[＃大日本帝国憲法と日本国憲法]({{ site.baseurl }}/tag/pol02_01/)　[＃税]({{ site.baseurl }}/tag/eco01_15/)  
   
 ### 問５解説  
 <div class="collapsible">
@@ -167,6 +167,8 @@ d財政上必要な場合は法律の定めなしに国税を徴収すること�
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
+[復習用資料：政治分野第二章／大日本帝国憲法と日本国憲法](https://teacheramesaka.github.io/highschoolpolitics/02_01.html)  
+[復習用資料：経済分野第一章／税](https://teacheramesaka.github.io/highschooleconomics/01_15.html)  
     {% endcapture %}
     {{ markdown_content | markdownify }}
   </div>
