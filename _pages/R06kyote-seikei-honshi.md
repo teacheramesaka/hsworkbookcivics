@@ -1212,7 +1212,7 @@ f　下降
 ⑧　ア-d　　イ-f  
   
   
-[＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃フローとストック]({{ site.baseurl }}/tag/eco01_09)　＃良問  
+[＃計算問題]({{ site.baseurl }}/tag/berechnung)　[＃経済成長率]({{ site.baseurl }}/tag/eco01_09)　＃良問  
   
 ### 問４解説  
 <div class="collapsible">
@@ -1220,7 +1220,7 @@ f　下降
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
-[復習用資料：経済分野第一章／フローとストック](https://teacheramesaka.github.io/highschooleconomics/01_09.html)  
+[復習用資料：経済分野第一章／経済成長率](https://teacheramesaka.github.io/highschooleconomics/01_10.html)  
   
 ・経済成長率の問題は普通、名目GDPとGDPデフレーターを見せて「実質成長率は？」と聞く  
 ・本問は、名目GDPと実質GDPを出してGDPデフレーターや物価変動を聞く、ひねった問題である  
@@ -1762,8 +1762,8 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
   
 >Y：一般に、収益性が高い金融資産は、安全性や流動性が（　ア　）といわれているね。  
   
-・勿論、沢山儲かるものはリスクが高い、というのも常識である  
-・故に（ア）は「高い」であろう  
+・勿論、沢山儲かるものはリスクが高い（安全性が低い）、というのも常識である  
+・故に（ア）は「低い」であろう  
   
 >Y：私は資産が減る可能性を最も低くしたいから、リターンが低くてもいいな。そういう意味では、この資料の中だと（　イ　）のような金融資産構成の方が好みが考え方に合っているね。  
   
