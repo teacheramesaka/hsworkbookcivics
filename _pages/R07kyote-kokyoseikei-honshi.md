@@ -335,7 +335,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
 ①ア　　②イ　　③ウ　　④アとイ　　⑤アとウ　　⑥イとウ　　⑦アとイとウ  
   
 [＃国語問題]({{ site.baseurl }}/tag/landessprache/)　[＃「公共」「公共、政治・経済」共通問題]({{ site.baseurl }}/tag/kokyo=seikei/)  
-※同年度本試験「公共」第１問の問３  
+※同年度本試験「公共」第１問の問２  
   
 ### 問２解説  
 <div class="collapsible">
