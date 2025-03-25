@@ -68,6 +68,7 @@
                 <span class="toggle"></span>
                 <a href="javascript:void(0);" onclick="pageScrollToTop(this)">共テ過去問全問を探す</a>
                 <ul>
+                    <li><a href="{{ site.baseurl }}/pages/R07kyote-kokyo-honshi">R07 共テ本試 公共</a></li>
                     <li><a href="{{ site.baseurl }}/pages/R07kyote-kokyoseikei-honshi">R07 共テ本試 公共、政治・経済</a></li>
                     <li><a href="{{ site.baseurl }}/pages/R07kyoteshisaku-kokyoseikei">R07 共テ試問 公共、政治・経済</a></li>
                     <li><a href="{{ site.baseurl }}/pages/R06kyote-seikei-honshi">R06 共テ本試 政治・経済</a></li>
@@ -361,7 +362,7 @@
 
                         {% assign tagname = "倫理分野" %}
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
-                        <li><a href="{{ site.baseurl }}/tage/thics/">{{ tagname }} ({{ tagged_posts | size }})</a></li>
+                        <li><a href="{{ site.baseurl }}/tage/ethics/">{{ tagname }} ({{ tagged_posts | size }})</a></li>
 
                         {% assign tagname = "「公共」「公共、政治・経済」共通問題" %}
                         {% assign tagged_posts = site.posts | where: "tags", tagname %}
