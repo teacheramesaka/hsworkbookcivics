@@ -314,4 +314,9 @@
   {% assign tag_posts = site.tags[tag_name] %}
   <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
 
+  {% assign tag_name = "「公共」「公共、政治・経済」共通問題" %}
+  {% assign tag_link = site.data.tag_links[tag_name] %}
+  {% assign tag_posts = site.tags[tag_name] %}
+  <li><a href="{{ site.baseurl }}{{ tag_link }}">{{ tag_name }} ({{ tag_posts | size }})</a></li>
+
 </ul>

@@ -1,0 +1,15 @@
+---
+layout: tag
+tag: 「公共」「公共、政治・経済」共通問題
+permalink: /tag/kokyo=seikei/
+---
+
+<h1>「「公共」「公共、政治・経済」共通問題」タグの問題一覧</h1>
+<p>このタグが付いた問題の数: {{ site.posts | where: "tags", "「公共」「公共、政治・経済」共通問題" | size }}</p>
+
+<ul>
+    {% assign tagged_posts = site.posts | where: "tags", "「公共」「公共、政治・経済」共通問題" %}
+    {% for post in tagged_posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
