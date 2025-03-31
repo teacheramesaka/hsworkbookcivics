@@ -24,7 +24,7 @@ show_title: false
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -72,7 +72,7 @@ show_title: false
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -137,7 +137,7 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
@@ -177,7 +177,7 @@ Y：憲法第16条には、（　ウ　）についての規定があって、�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -218,7 +218,7 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -332,7 +332,7 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -428,7 +428,7 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -465,7 +465,7 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -502,7 +502,7 @@ X：資料3は、2002年から2006年の間の完全失業率が高くなった�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -568,7 +568,7 @@ d　事業から利益を得る事業主が負担すべきという考え方に�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -640,7 +640,7 @@ f　一般職の国家公務員は勤務条件の維持改善を目的とする�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -711,7 +711,7 @@ d　住民に身近な行政については、まずは地方公共団体が責�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -757,7 +757,7 @@ d　住民に身近な行政については、まずは地方公共団体が責�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -821,7 +821,7 @@ d　住民に身近な行政については、まずは地方公共団体が責�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -889,7 +889,7 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -967,7 +967,7 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1027,7 +1027,7 @@ f　会社に社会的責任を果たさせて幅広いステークホルダー�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1109,7 +1109,7 @@ f　どの面からみた総額もすべて等しい
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解は：⑥  
@@ -1159,7 +1159,7 @@ f　どの面からみた総額もすべて等しい
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1216,7 +1216,7 @@ f　下降
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
@@ -1282,7 +1282,7 @@ f　下降
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1357,7 +1357,7 @@ f　下降
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1433,7 +1433,7 @@ c　3
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -1488,7 +1488,7 @@ c　3
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1563,7 +1563,7 @@ c　ロック
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -1634,7 +1634,7 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -1682,7 +1682,7 @@ Y：（　イ　）は経済成長にマイナスの影響を与えるといわ�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1743,7 +1743,7 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1800,7 +1800,7 @@ X：私はリスクが高くても将来的に資産が増える可能性が高�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
@@ -1861,7 +1861,7 @@ f　1980年代の貿易摩擦で対象の品目に含まれていた半導体を
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  

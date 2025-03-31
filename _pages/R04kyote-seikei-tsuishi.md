@@ -26,7 +26,7 @@ show_title: false
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -59,7 +59,7 @@ show_title: false
 
 ### 問２解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -88,7 +88,7 @@ show_title: false
 
 ### 問３解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -111,7 +111,7 @@ show_title: false
 
 ### 問４解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  

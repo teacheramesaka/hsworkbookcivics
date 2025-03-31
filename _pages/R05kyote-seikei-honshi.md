@@ -36,7 +36,7 @@ show_title: false
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -97,7 +97,7 @@ show_title: false
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
   {% capture markdown_content %}
 正解：⑥  
@@ -165,7 +165,7 @@ C国：中華人民共和国
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -234,7 +234,7 @@ d原子力エネルギーによる発電
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -289,7 +289,7 @@ d財政上必要な場合は法律の定めなしに国税を徴収すること�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -373,7 +373,7 @@ d財政上必要な場合は法律の定めなしに国税を徴収すること�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -461,7 +461,7 @@ d内閣総理大臣が単独で任意に行うことができるね
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -504,7 +504,7 @@ d内閣総理大臣が単独で任意に行うことができるね
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -544,7 +544,7 @@ d内閣総理大臣が単独で任意に行うことができるね
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -577,7 +577,7 @@ d内閣総理大臣が単独で任意に行うことができるね
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -614,7 +614,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -668,7 +668,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -712,7 +712,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -756,7 +756,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -813,7 +813,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -864,7 +864,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -934,7 +934,7 @@ c　中小企業に関して、日本の中小企業は、企業全体に対し�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -983,7 +983,7 @@ X：でも、［　ウ　］が［　イ　］で分離壁の建設を進める�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1039,7 +1039,7 @@ X：その後、国際連合憲章では、国際関係において武力によ�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1080,7 +1080,7 @@ X：その後、国際連合憲章では、国際関係において武力によ�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1110,7 +1110,7 @@ X：その後、国際連合憲章では、国際関係において武力によ�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1146,7 +1146,7 @@ X：その後、国際連合憲章では、国際関係において武力によ�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -1174,7 +1174,7 @@ X：その後、国際連合憲章では、国際関係において武力によ�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1206,7 +1206,7 @@ X：法律案の議決についても、［　イ　］を国会の議決とす�
   
 ## 解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1258,7 +1258,7 @@ X：法律案の議決についても、［　イ　］を国会の議決とす�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1283,7 +1283,7 @@ X：法律案の議決についても、［　イ　］を国会の議決とす�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1308,7 +1308,7 @@ X：法律案の議決についても、［　イ　］を国会の議決とす�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1338,7 +1338,7 @@ X：法律案の議決についても、［　イ　］を国会の議決とす�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1382,7 +1382,7 @@ c　南アフリカでは、2017年から2018年にかけて、対外債務残�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1416,7 +1416,7 @@ Xたしかに、そこが国際的な問題の難しさだけど、そうした�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  

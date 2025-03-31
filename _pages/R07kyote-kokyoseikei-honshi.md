@@ -32,7 +32,7 @@ B：もっと調べてみようよ。
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -86,7 +86,7 @@ B：もっと調べてみようよ。
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -213,7 +213,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -279,7 +279,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -339,7 +339,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -456,7 +456,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -512,7 +512,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
 
 ### 問１解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -567,7 +567,7 @@ X：Yさんの考え方もわかるけど、合区が増えてくると、地方
 
 ### 問２解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -615,7 +615,7 @@ X：Yさんの考え方もわかるけど、合区が増えてくると、地方
 
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -669,7 +669,7 @@ d阻害
 
 ### 問４解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -726,7 +726,7 @@ d阻害
 
 ### 問５解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -776,7 +776,7 @@ d阻害
 
 ### 問６解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -842,7 +842,7 @@ Y：アメリカと日本の金利が影響し合っているという金融の�
 
 ### 問１解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -917,7 +917,7 @@ Y：ロシアのウクライナ侵攻もあったし、これまでの経済の�
   
 ### 問２解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -994,7 +994,7 @@ Y：ロシアのウクライナ侵攻もあったし、これまでの経済の�
 
 ### 問３解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1032,7 +1032,7 @@ Y：ロシアのウクライナ侵攻もあったし、これまでの経済の�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1068,7 +1068,7 @@ Y：ロシアのウクライナ侵攻もあったし、これまでの経済の�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1127,7 +1127,7 @@ d　2016年以降の調査では、「否定的な評価」と「どちらかと
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1193,7 +1193,7 @@ d　2016年以降の調査では、「否定的な評価」と「どちらかと
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1260,7 +1260,7 @@ d技能実習制度を廃止して、外国人にほぼすべての業種での�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1320,7 +1320,7 @@ d障害者を職員や従業員の一定比率以上雇用すること
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1360,7 +1360,7 @@ d障害者を職員や従業員の一定比率以上雇用すること
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1428,7 +1428,7 @@ d労働組合組織率が同水準の日本とドイツとを比べると、就�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1507,7 +1507,7 @@ f産業別や職業別
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -1578,7 +1578,7 @@ f産業別や職業別
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -1631,7 +1631,7 @@ f産業別や職業別
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1688,7 +1688,7 @@ Y：そのため司法や行政の役割も調べてみよう。
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1745,7 +1745,7 @@ Y：そのため司法や行政の役割も調べてみよう。
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -1809,7 +1809,7 @@ f事後規制
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -1871,6 +1871,43 @@ e　参入企業が農作物の栽培技術を習得するための講習会を�
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
+  
+・図表と本文及び選択肢の内容を照らし合わせるだけの、純粋な論理国語の問題である  
+  
+>表1の企業の参入の目的をみると、たとえば、［　ア　］。  
+  
+・表1を見て、選択肢と照らし合わせればよい部分である  
+  
+>a　建設業において農業に参入する目的として最も多いのは、これまでとは異なる業種に事業を拡大することだね  
+  
+・表1の建設業では、「経営の多角化」が80%で一位となっている  
+・よって、正文である  
+  
+>b　食品製造業において農業に参入する目的として最も多いのは、製造する食品の生産や流通の経路を把握できるようにすることだね  
+  
+・表1の食品製造業では、「本業商品の付加価値化・差別化」が59%で一位である  
+・よって、誤文である  
+  
+>表2の建設業で、参入時の課題としてあげている企業が最も多い項目については、地方自治体の支援策として［　イ　］が考えられるよ。  
+  
+・表2の建設業では、「販路の開拓」が83%で一位になっている  
+・これを頭に入れた上で、［　イ　］に適する選択肢を選べばよい  
+  
+>c　参入企業に対して、農作物の生産の際に先端技術を用いるスマート農業を導入するための資金を援助すること  
+  
+・「販路の開拓」という課題に対して適した対策ではない  
+※むしろ、「農業技術の習得」や「労働力の確保」に適した対策である  
+  
+>d　参入企業と、その企業が生産した農作物を購入して利用する可能性のある他の企業とのマッチングの機会を設けること  
+  
+・「販路の開拓」という課題に対し、適した対策である  
+・よって、dが正文であると考えられる。一応、eも見ておこう  
+  
+>e　参入企業が農作物の栽培技術を習得するための講習会を開催すること  
+  
+・見ての通り、eもまた、「販路の開拓」に資するものではない  
+・むしろ、「農業技術の習得」という課題に適した対策である  
+・よって、やはりdが正文であると考えられるのである  
     {% endcapture %}
     {{ markdown_content | markdownify }}
   </div>

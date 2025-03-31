@@ -24,7 +24,7 @@ show_title: false
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -50,7 +50,7 @@ show_title: false
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -80,7 +80,7 @@ show_title: false
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -110,7 +110,7 @@ show_title: false
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -141,7 +141,7 @@ show_title: false
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -169,7 +169,7 @@ show_title: false
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -211,7 +211,7 @@ Z：はい。安保理は、［　イ　］については九つの理事国の�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -243,7 +243,7 @@ Z：はい。たとえば、2004年に調印された欧州憲法条約(EU憲法
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -273,7 +273,7 @@ Z：はい。たとえば、2004年に調印された欧州憲法条約(EU憲法
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -388,7 +388,7 @@ Y：それが合理的配慮だといわれていて、その具体例として�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -416,7 +416,7 @@ Y：それが合理的配慮だといわれていて、その具体例として�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -438,7 +438,7 @@ Y：それが合理的配慮だといわれていて、その具体例として�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 問５解説  
@@ -469,7 +469,7 @@ Y：それが合理的配慮だといわれていて、その具体例として�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -527,7 +527,7 @@ c　ある権利について男性と女性とで権利行使の状況に大き�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -562,7 +562,7 @@ Y：そういえば、2013年の公職選挙法の改正でインターネット
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -589,7 +589,7 @@ Y：そういえば、2013年の公職選挙法の改正でインターネット
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -614,7 +614,7 @@ c　食料自給率の低迷や食品の偽装表示などにより、食料の�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -645,7 +645,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -664,7 +664,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -694,7 +694,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -716,7 +716,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -770,7 +770,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -795,7 +795,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -862,7 +862,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -893,7 +893,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -927,7 +927,7 @@ Y：地方交付税は、地方自治体にとっては貴重な財源だね。�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -968,7 +968,7 @@ c　高度プロフェッショナル制度
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -999,7 +999,7 @@ c　自身の所有する物について、自由に使用したり、そこか�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1029,7 +1029,7 @@ c　自身の所有する物について、自由に使用したり、そこか�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  

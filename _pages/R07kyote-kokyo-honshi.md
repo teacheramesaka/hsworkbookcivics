@@ -32,7 +32,7 @@ B：もっと調べてみようよ。
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -86,7 +86,7 @@ B：もっと調べてみようよ。
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -213,7 +213,7 @@ B：平等について考えるためには、人々の違いを多様性とし�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -275,7 +275,7 @@ T：社会や経済の在り方には様々な考え方がありますね。明�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -306,7 +306,7 @@ Z　企業は調達した資金を返済する義務がない。事業の業績�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -336,7 +336,7 @@ Z　企業は調達した資金を返済する義務がない。事業の業績�
   
 ### 問３解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -367,7 +367,7 @@ Z　企業は調達した資金を返済する義務がない。事業の業績�
   
 ### 問４解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -408,7 +408,7 @@ A：その通り。最近では、一票の格差を是正するための努力�
   
 ### 問１解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -430,7 +430,7 @@ A：その通り。最近では、一票の格差を是正するための努力�
   
 ### 問２解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -472,7 +472,7 @@ f　最高裁の裁判官は国民審査に付される
   
 ### 問３解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -506,7 +506,7 @@ c　罪を犯した20歳未満の少年について、保護や教育を通じ�
   
 ### 問４解説
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -544,7 +544,7 @@ c　罪を犯した20歳未満の少年について、保護や教育を通じ�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -604,7 +604,7 @@ c　罪を犯した20歳未満の少年について、保護や教育を通じ�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -721,7 +721,7 @@ c　罪を犯した20歳未満の少年について、保護や教育を通じ�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  

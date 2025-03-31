@@ -30,7 +30,7 @@ show_title: false
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -58,7 +58,7 @@ show_title: false
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -83,7 +83,7 @@ K寺の門前町として栄えたJ市に関連して、J市とK寺のかかわ�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -149,7 +149,7 @@ Y：所有権には所有物を適切に管理する責任が伴うというこ�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -177,7 +177,7 @@ Y：所有権には所有物を適切に管理する責任が伴うというこ�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -204,7 +204,7 @@ Y：民泊の営業中に実際に周囲に迷惑をかけているなら個別�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -234,7 +234,7 @@ Y：一つの事項についてもさまざまな法律が重層的にかかわ�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -257,7 +257,7 @@ Y：一つの事項についてもさまざまな法律が重層的にかかわ�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -283,7 +283,7 @@ Y：一つの事項についてもさまざまな法律が重層的にかかわ�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -307,7 +307,7 @@ X：うん。加えて、市民で構成されるNPOなどによる、供給側�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -333,7 +333,7 @@ X：うん。加えて、市民で構成されるNPOなどによる、供給側�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -358,7 +358,7 @@ X：それなら、日本銀行の公開市場操作は［　イ　］を直接�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -421,7 +421,7 @@ X：それなら、日本銀行の公開市場操作は［　イ　］を直接�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -448,7 +448,7 @@ X：それなら、日本銀行の公開市場操作は［　イ　］を直接�
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -502,7 +502,7 @@ Y：この図をみてよ。災害前は右下がりの需要曲線と右上が�
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -530,7 +530,7 @@ Y：この図をみてよ。災害前は右下がりの需要曲線と右上が�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -558,7 +558,7 @@ Y：この図をみてよ。災害前は右下がりの需要曲線と右上が�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑤  
@@ -616,7 +616,7 @@ a一致する　　　b一致しない
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
@@ -722,7 +722,7 @@ a一致する　　　b一致しない
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -798,7 +798,7 @@ a一致する　　　b一致しない
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -822,7 +822,7 @@ a一致する　　　b一致しない
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -844,7 +844,7 @@ a一致する　　　b一致しない
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑦  
@@ -878,7 +878,7 @@ a一致する　　　b一致しない
   
 ### 問７解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -913,7 +913,7 @@ Y：本当にそうかな。FTAやEPAといったそれぞれの国や地域の�
   
 ### 問８解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -948,7 +948,7 @@ D　大都市地域特別区設置法に基づいて、政令指定都市であ�
   
 ### 問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解①  
@@ -980,7 +980,7 @@ Y：実際あるんだよ。新聞で読んだけど、地方自治法上の国�
   
 ### 問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解③  
@@ -1014,7 +1014,7 @@ X：［　エ　］をはじめとして選挙権を行使しやすくするた�
   
 ### 問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1043,7 +1043,7 @@ Y：日本全体の話だと実感がわかないから、身の回りの問題�
   
 ### 問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -1103,7 +1103,7 @@ Y：日本全体の話だと実感がわかないから、身の回りの問題�
   
 ### 問５解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -1134,7 +1134,7 @@ d　ノーマライゼーションの考え方を実行に移す取組み
   
 ### 問６解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示　※解説はまだ作成されていません</button>
+  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解④  
