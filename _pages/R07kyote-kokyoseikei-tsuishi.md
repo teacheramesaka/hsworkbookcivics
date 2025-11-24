@@ -33,7 +33,7 @@ B：よりよい社会の実現のためには、すぐに答えの出ない問�
 ### 第１問　問１解説
 
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -87,7 +87,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第１問　問２　解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：④  
@@ -172,7 +172,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第１問　問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -232,7 +232,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第１問　問４解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -289,7 +289,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第２問　問１解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑥  
@@ -375,7 +375,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第２問　問２解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑨  
@@ -424,7 +424,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第２問　問３解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -495,7 +495,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第２問　問４　解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：⑧  
@@ -569,7 +569,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第３問　問１　解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：①  
@@ -629,7 +629,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第３問　問２　解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：③  
@@ -699,7 +699,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ### 第３問　問３　解説  
 <div class="collapsible">
-  <button class="collapsible-button">＋　クリック・タップで模範回答を表示</button>
+  <button class="collapsible-button">＋　クリック・タップで解説を表示</button>
   <div class="collapsible-content">
     {% capture markdown_content %}
 正解：②  
@@ -928,7 +928,7 @@ Z　同一の人間あるいは同一の役職者団体において立法権力�
   
 ・よって、「最高税率を引き上げる」と、格差是正効果は上がる筈である  
   
-※“今や消費税よりも逆進性が高いと話題になってる社会保障でこんなに格差が是正される訳ないだろ！！”と思うかもしれないが、ジニ係数は“所得”つまり“収入”しか見ないので…“貯金もロクにできない若者から収奪した社会保険料が、たっぷり資産のある年金生活者の年金として支給される”みたいな現実は一切反映されないのである  
+※“今や消費税よりも逆進性が高いと話題になってる社会保障で、こんなに格差が是正される訳ないだろ！！”と思うかもしれないが、ジニ係数は“所得”つまり“収入”しか見ないので…“貯金もロクにできない若者から収奪した社会保険料が、たっぷり資産のある年金生活者の年金として支給される”みたいな現実は一切反映されないのである  
     {% endcapture %}
     {{ markdown_content | markdownify }}
   </div>
